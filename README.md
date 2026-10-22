@@ -33,7 +33,17 @@ QR bibliotēkas (`qrcode-generator`, `jsQR`) tiek ielādētas no CDN, tāpēc va
 
 Labojumus var veikt cilnē **Cards** (poga Edit pie dziesmas) vai uzreiz pēc dziesmas atklāšanas spēlē. Var arī pievienot jaunas dziesmas un dzēst esošās. Cilnē **Data** var importēt CSV vai JSON.
 
-Labojumi tiek saglabāti **tikai tavā pārlūkā** (localStorage). Lai tie kļūtu pieejami visiem:
+Labojumi vispirms tiek saglabāti **tikai tavā pārlūkā** (localStorage), jo GitHub Pages ir statiska vietne un pati nevar saglabāt failus. Lai tie kļūtu pieejami visiem, ir divi veidi:
+
+**A. Publicēt tieši no lapas (ieteicams)**
+
+1. Izveido [fine-grained personal access token](https://github.com/settings/personal-access-tokens/new): *Repository access* → tikai šis repozitorijs, *Permissions* → **Contents: Read and write**.
+2. Cilnē **Data**, panelī **Publish to GitHub**, ievadi īpašnieku, repozitoriju, zaru un tokenu (GitHub Pages adresē tie tiek aizpildīti automātiski).
+3. Nospied **Publish changes**. Lapa izveido commit ar atjauninātu `data/songs.json`; GitHub Pages to parāda visiem pēc ~1 minūtes. Citu cilvēku izmaiņas, kas veiktas pa to laiku, netiek pārrakstītas.
+
+Tokens glabājas tikai tavā pārlūkā. Nelieto to koplietotos datoros; vajadzības gadījumā nospied **Forget token** vai atsauc tokenu GitHub iestatījumos.
+
+**B. Manuāli**
 
 1. Cilnē **Data** nospied **Export songs (JSON)**.
 2. Aizstāj `data/songs.json` repozitorijā ar lejupielādēto failu un veic commit.
@@ -49,6 +59,24 @@ Cilne **Print**: izvēlies dziesmas, papīra apgriešanas veidu (garā vai īsā
 
 Uzvar spēlētājs, kurš pirmais sasniedz mērķa punktu skaitu un kārtas beigās ir vismaz par vienu punktu priekšā visiem pārējiem. Ja tā nav, mērķis pieaug par 1 un spēle turpinās. Uzvarētājs tiek noteikts tikai kārtas beigās.
 
-## Dziesmas bez atvērta Spotify
+## Atskaņošana bez nosaukuma atklāšanas
 
-Šajā versijā QR kods atver dziesmu Spotify. Atskaņošanu pašā lapā (Spotify Web Playback SDK) nav iekļauta: tai vajadzīgs Spotify Premium, Spotify izstrādātāja konts ar Client ID un autorizācija.
+Poga ▶ spēlē atskaņo dziesmu tieši lapā, izmantojot paslēptu Spotify iegulto atskaņotāju, tāpēc nosaukums, izpildītājs un vāks netiek parādīti līdz kārts atklāšanai.
+
+- Ja šajā pārlūkā esi pieslēdzies Spotify (un pārlūks atļauj trešo pušu sīkdatnes), skan visa dziesma; citādi tikai 30 sekunžu fragments.
+- Pilnai dziesmai vienmēr var izmantot saiti **Open in Spotify instead** (tā gan parāda nosaukumu) vai noskenēt QR kodu.
+
+### Pilnas dziesmas ar Spotify Premium
+
+Cilnē **Data**, panelī **Full songs (Spotify Premium)**:
+
+1. [Spotify izstrādātāja panelī](https://developer.spotify.com/dashboard) izveido lietotni, atzīmē *Web API* un *Web Playback SDK*.
+2. Pievieno Redirect URI, ko rāda panelis (piem. `https://<lietotājs>.github.io/<repozitorijs>/`). Lokāli jāizmanto `http://127.0.0.1:8000/`, nevis `localhost`.
+3. Sadaļā *User Management* pievieno Spotify kontus, kas spēlēs.
+4. Ielīmē Client ID un nospied **Connect Spotify**.
+
+Pēc tam dziesmas lapā skan pilnā garumā, nosaukums netiek rādīts. Vajadzīgs Spotify Premium. Ņem vērā: Spotify lietotne citās ierīcēs (piem. telefonā) var parādīt, kas pašlaik skan.
+
+## Gada labošana spēles laikā
+
+Pēc kārts atklāšanas zem rezultāta ir lauks **Wrong year on the card?**. Ievadi pareizo gadu un nospied **Fix & re-check**: gads tiek saglabāts (kā vietēja izmaiņa, ko pēc tam var publicēt), un atbilde tiek pārbaudīta no jauna. Ja ar pareizo gadu minējums bija pareizs, kārts paliek laika līnijā. Arī **Edit song** dialogā veiktie labojumi spēles laikā atbildi pārbauda no jauna.
