@@ -465,7 +465,7 @@ tbody tr.plain:hover td{background:none}
           <li>Paste the app's Client ID below and connect.</li>
         </ol>
         <div class="pf"><div class="wide"><label for="sp-client">Client ID</label><input type="text" id="sp-client" autocomplete="off" spellcheck="false" placeholder="32 characters"></div></div>
-        <div class="row" style="margin-top:12px"><button class="btn primary" id="sp-connect">Connect Spotify</button><button class="btn" id="sp-disconnect" data-ic="x" hidden>Disconnect</button></div>
+        <div class="row" style="margin-top:12px"><button class="btn primary" id="sp-connect">Connect Spotify</button><button class="btn" id="sp-test" data-ic="check" hidden>Test connection</button><button class="btn" id="sp-disconnect" data-ic="x" hidden>Disconnect</button></div>
         <p id="sp-status" class="msg" role="status" style="margin-top:10px"></p>
       </div>
       <div class="panel">
@@ -858,7 +858,7 @@ function loadSpotifyPlayer(uri){
       });
     };
     const s = document.createElement("script"); s.src = "https://open.spotify.com/embed/iframe-api/v1"; s.async = true;
-    s.onerror = () => { player.loading = null; rej(new Error("The Spotify player could not be loaded. Check your connection or use Open in Spotify.")); };
+    s.onerror = () => { player.loading = null; rej(new Error("The Spotify preview player was blocked or couldn't load (ad/tracker blocker? allow open.spotify.com). Use Open in Spotify meanwhile.")); };
     document.head.appendChild(s);
   });
   return player.loading;
@@ -941,10 +941,10 @@ function loadSdk(){
       p.addListener("authentication_error", fail("Spotify login expired. Connect again in Data"));
       p.addListener("account_error", fail("Full songs need Spotify Premium"));
       p.addListener("player_state_changed", s => { if (!s || player.mode !== "full") return; player.paused = s.paused; player.pos = s.position; player.dur = s.duration; updatePlayerUI(); });
-      p.connect().then(ok => { if (!ok) fail("Could not connect to Spotify")(); });
+      p.connect().then(async ok => { if (!ok) fail((await spDiagnose()) || "Could not connect to Spotify. Check that the app has Web Playback SDK ticked under APIs used")(); });
     };
     const s = document.createElement("script"); s.src = "https://sdk.scdn.co/spotify-player.js";
-    s.onerror = () => fail("The Spotify player could not be loaded")();
+    s.onerror = () => fail("The Spotify player script was blocked or couldn't load (ad/tracker blocker? allow sdk.scdn.co)")();
     document.head.appendChild(s);
   });
   return sdk.loading;
@@ -967,12 +967,34 @@ async function playFull(uri){
     player.paused = s.paused; player.pos = s.position; player.dur = s.duration; updatePlayerUI();
   }, 1000);
 }
+/* Asks Spotify why playback isn't allowed; returns "" when the account looks fine. */
+async function spDiagnose(){
+  try {
+    const r = await fetch("https://api.spotify.com/v1/me", { headers: { Authorization: "Bearer " + await spToken() } });
+    const d = await r.json().catch(() => ({})), m = d.error && d.error.message ? " (" + d.error.message + ")" : "";
+    if (r.status === 401) return "The Spotify login is no longer valid. Press Reconnect" + m;
+    if (r.status === 403) return "Spotify refused this account. Add it under User Management in your app on the developer dashboard" + m;
+    if (!r.ok) return "Spotify error " + r.status + m;
+    if (d.product !== "premium") return "The account “" + (d.display_name || d.id) + "” has Spotify " + (d.product || "Free") + "; full songs need Premium";
+    return "";
+  } catch(e){ return "Spotify couldn't be reached (" + e.message + ")"; }
+}
+async function spTest(){
+  const st = $("#sp-status"), btn = $("#sp-test");
+  btn.disabled = true; st.className = "msg"; st.textContent = "Checking your Spotify account…";
+  sdk.failed = ""; if (!sdk.player) sdk.loading = null;
+  let msg = await spDiagnose();
+  if (!msg){ st.textContent = "Account OK. Starting the player…"; try { await loadSdk(); } catch(e){ msg = e.message; } }
+  btn.disabled = false;
+  if (msg){ sdk.failed = msg; renderSpotifyPanel(); return; }
+  st.className = "msg ok"; st.textContent = "Everything works. Songs will play in full.";
+}
 function renderSpotifyPanel(){
   const c = spConf(), on = spConnected();
   $("#sp-redirect").textContent = spRedirect();
   if (!$("#sp-client").value) $("#sp-client").value = c.client || "";
   $("#sp-connect").innerHTML = ic("music") + (on ? "Reconnect" : "Connect Spotify");
-  $("#sp-disconnect").hidden = !on;
+  $("#sp-disconnect").hidden = !on; $("#sp-test").hidden = !on;
   const st = $("#sp-status");
   if (location.hostname === "localhost"){ st.className = "msg bad"; st.textContent = "Spotify doesn't accept 'localhost' as a redirect address. Open the page via http://127.0.0.1 instead."; return; }
   st.className = "msg " + (sdk.failed ? "bad" : on ? "ok" : "");
@@ -1474,7 +1496,7 @@ $("#reset-local").onclick = () => {
 };
 function openJsonFile(e){ const f = e.target.files[0]; if (!f) return; const r = new FileReader(); r.onload = () => { try { const base = JSON.parse(r.result); if (!Array.isArray(base)) throw new Error("expected a list of songs"); state.cards = applyPatch(base, readPatch()).map(toCard); DB.ready = true; DB.canWrite = true; DB.msg = ""; DB.src = f.name; afterEdit(); } catch(err){ alert("Invalid JSON: " + err.message); } }; r.readAsText(f, "utf-8"); }
 window.addEventListener("storage", e => { if (e.key === LS_KEY) loadSongs(); });
-$("#sp-connect").onclick = spLogin; $("#sp-disconnect").onclick = spDisconnect;
+$("#sp-connect").onclick = spLogin; $("#sp-disconnect").onclick = spDisconnect; $("#sp-test").onclick = spTest;
 initGitHub(); renderSpotifyPanel(); setMode("game"); loadSongs(); spHandleRedirect();
 </script>
 </body>
