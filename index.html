@@ -898,13 +898,13 @@ async function spLogin(){
   const challenge = b64url(await crypto.subtle.digest("SHA-256", new TextEncoder().encode(verifier)));
   const st = b64url(crypto.getRandomValues(new Uint8Array(16)));
   spSave({ ...spConf(), client: id, verifier, state: st });
-  location.href = "https://accounts.spotify.com/authorize?" + new URLSearchParams({ client_id: id, response_type: "code", redirect_uri: spRedirect(), code_challenge_method: "S256", code_challenge: challenge, scope: SP_SCOPES, state: st });
+  location.href = "https://accounts.spotify.com/authorize?" + new URLSearchParams({ client_id: id, response_type: "code", redirect_uri: spRedirect(), code_challenge_method: "S256", code_challenge: challenge, scope: SP_SCOPES, state: st, show_dialog: "true" });
 }
 async function spTokenRequest(params){
   const r = await fetch("https://accounts.spotify.com/api/token", { method: "POST", headers: { "Content-Type": "application/x-www-form-urlencoded" }, body: new URLSearchParams(params) });
   const d = await r.json().catch(() => ({}));
   if (!r.ok) throw new Error("Spotify login failed: " + (d.error_description || d.error || r.status));
-  const c = spConf(); c.access = d.access_token; c.expires = Date.now() + ((d.expires_in || 3600) - 60) * 1000; if (d.refresh_token) c.refresh = d.refresh_token; spSave(c);
+  const c = spConf(); c.access = d.access_token; c.expires = Date.now() + ((d.expires_in || 3600) - 60) * 1000; if (d.refresh_token) c.refresh = d.refresh_token; if (d.scope) c.scope = d.scope; spSave(c);
   return c.access;
 }
 async function spToken(){
@@ -941,7 +941,10 @@ function loadSdk(){
       p.addListener("ready", ({ device_id }) => { if (done) return; done = true; clearTimeout(timer); sdk.device = device_id; sdk.player = p; res(p); });
       p.addListener("not_ready", () => { sdk.device = ""; });
       p.addListener("initialization_error", fail("This browser can't play full songs in the page (DRM/Widevine is needed)"));
-      p.addListener("authentication_error", fail("Spotify login expired. Press Reconnect in Data"));
+      p.addListener("authentication_error", async e => {
+        const c = spConf(); delete c.access; spSave(c);
+        fail((await spDiagnose()) || "Spotify rejected the player's login. On the developer dashboard tick Web Playback SDK under APIs used and add your account under User Management, then press Reconnect in Data")(e);
+      });
       p.addListener("account_error", fail("Full songs need Spotify Premium"));
       p.addListener("player_state_changed", s => { if (!s || player.mode !== "full") return; player.paused = s.paused; player.pos = s.position; player.dur = s.duration; updatePlayerUI(); });
       p.connect().then(async ok => { if (!ok) fail((await spDiagnose()) || "Could not connect to Spotify. Check that the app has Web Playback SDK ticked under APIs used")(); });
@@ -997,6 +1000,8 @@ async function spDiagnose(){
     if (r.status === 403) return "Spotify refused this account. Add it under User Management in your app on the developer dashboard" + m;
     if (!r.ok) return "Spotify error " + r.status + m;
     if (d.product !== "premium") return "The account “" + (d.display_name || d.id) + "” has Spotify " + (d.product || "Free") + "; full songs need Premium";
+    const sc = spConf().scope;
+    if (sc && !sc.split(" ").includes("streaming")) return "The Spotify login didn't include permission to play songs (streaming). Press Reconnect and accept all permissions";
     return "";
   } catch(e){ return "Spotify couldn't be reached (" + e.message + ")"; }
 }
