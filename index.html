@@ -932,22 +932,44 @@ function spDisconnect(){
 function loadSdk(){
   if (sdk.loading) return sdk.loading;
   sdk.loading = new Promise((res, rej) => {
-    const fail = msg => e => { sdk.loading = null; sdk.failed = msg + (e && e.message ? " (" + e.message + ")" : ""); rej(new Error(sdk.failed)); };
-    window.onSpotifyWebPlaybackSDKReady = () => {
-      const p = new Spotify.Player({ name: "Laika Līnija", volume: 0.8, getOAuthToken: cb => spToken().then(cb, e => toast(e.message, "bad")) });
-      p.addListener("ready", ({ device_id }) => { sdk.device = device_id; sdk.player = p; res(p); });
+    let done = false;
+    const fail = msg => e => { if (done) return; done = true; clearTimeout(timer); sdk.loading = null; sdk.failed = msg + (e && e.message ? " (" + e.message + ")" : ""); rej(new Error(sdk.failed)); };
+    const timer = setTimeout(async () => fail((await spDiagnose()) || "The Spotify player didn't start within 15 seconds. Make sure protected content (DRM/Widevine) is allowed in the browser and no blocker stops sdk.scdn.co")(), 15000);
+    const init = () => {
+      if (sdk.player){ sdk.player.disconnect(); sdk.player = null; }
+      const p = new Spotify.Player({ name: "Laika Līnija", volume: 0.8, getOAuthToken: cb => spToken().then(cb, e => fail(e.message)()) });
+      p.addListener("ready", ({ device_id }) => { if (done) return; done = true; clearTimeout(timer); sdk.device = device_id; sdk.player = p; res(p); });
       p.addListener("not_ready", () => { sdk.device = ""; });
-      p.addListener("initialization_error", fail("This browser can't play full songs in the page"));
-      p.addListener("authentication_error", fail("Spotify login expired. Connect again in Data"));
+      p.addListener("initialization_error", fail("This browser can't play full songs in the page (DRM/Widevine is needed)"));
+      p.addListener("authentication_error", fail("Spotify login expired. Press Reconnect in Data"));
       p.addListener("account_error", fail("Full songs need Spotify Premium"));
       p.addListener("player_state_changed", s => { if (!s || player.mode !== "full") return; player.paused = s.paused; player.pos = s.position; player.dur = s.duration; updatePlayerUI(); });
       p.connect().then(async ok => { if (!ok) fail((await spDiagnose()) || "Could not connect to Spotify. Check that the app has Web Playback SDK ticked under APIs used")(); });
     };
+    // The SDK only calls onSpotifyWebPlaybackSDKReady once, so a retry must init directly.
+    if (window.Spotify && window.Spotify.Player) return init();
+    window.onSpotifyWebPlaybackSDKReady = init;
     const s = document.createElement("script"); s.src = "https://sdk.scdn.co/spotify-player.js";
     s.onerror = () => fail("The Spotify player script was blocked or couldn't load (ad/tracker blocker? allow sdk.scdn.co)")();
     document.head.appendChild(s);
   });
   return sdk.loading;
+}
+async function spPlayOn(uri){
+  for (let attempt = 0; attempt < 3; attempt++){
+    const ac = new AbortController(), t = setTimeout(() => ac.abort(), 10000);
+    let r;
+    try {
+      r = await fetch("https://api.spotify.com/v1/me/player/play?device_id=" + encodeURIComponent(sdk.device), {
+        method: "PUT", signal: ac.signal, headers: { Authorization: "Bearer " + await spToken(), "Content-Type": "application/json" }, body: JSON.stringify({ uris: [uri] }) });
+    } catch(e){ throw new Error(e.name === "AbortError" ? "Spotify didn't answer within 10 seconds" : "Spotify couldn't be reached"); }
+    finally { clearTimeout(t); }
+    if (r.ok) return;
+    // A freshly connected player can take a moment before Spotify accepts it as a device.
+    if (r.status === 404 && attempt < 2){ await new Promise(ok => setTimeout(ok, 1200)); continue; }
+    const d = await r.json().catch(() => ({}));
+    throw new Error("Spotify refused to play" + (d.error && d.error.message ? ": " + d.error.message : ""));
+  }
 }
 async function playFull(uri){
   if (sdk.player) sdk.player.activateElement();
@@ -955,10 +977,9 @@ async function playFull(uri){
   if (player.ctrl && player.mode === "preview" && !player.paused) player.ctrl.pause();
   player.uri = uri; player.mode = "full"; player.pos = player.dur = 0; player.pending = true; updatePlayerUI();
   const p = await loadSdk();
-  const r = await fetch("https://api.spotify.com/v1/me/player/play?device_id=" + encodeURIComponent(sdk.device), {
-    method: "PUT", headers: { Authorization: "Bearer " + await spToken(), "Content-Type": "application/json" }, body: JSON.stringify({ uris: [uri] }) });
+  p.activateElement();
+  await spPlayOn(uri);
   player.pending = false;
-  if (!r.ok){ const d = await r.json().catch(() => ({})); throw new Error("Spotify refused to play" + (d.error && d.error.message ? ": " + d.error.message : "")); }
   player.paused = false; updatePlayerUI();
   clearInterval(sdk.timer);
   sdk.timer = setInterval(async () => {
@@ -1498,6 +1519,8 @@ function openJsonFile(e){ const f = e.target.files[0]; if (!f) return; const r =
 window.addEventListener("storage", e => { if (e.key === LS_KEY) loadSongs(); });
 $("#sp-connect").onclick = spLogin; $("#sp-disconnect").onclick = spDisconnect; $("#sp-test").onclick = spTest;
 initGitHub(); renderSpotifyPanel(); setMode("game"); loadSongs(); spHandleRedirect();
+// Start the full-song player early so the first press of Play doesn't wait for it.
+if (spConnected() && !new URLSearchParams(location.search).has("code")) loadSdk().catch(() => renderSpotifyPanel());
 </script>
 </body>
 </html>
