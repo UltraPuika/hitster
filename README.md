@@ -1,6 +1,6 @@
 # Laika Līnija
 
-HITSTER tipa latviešu mūzikas spēle: katrai kārtij ir QR kods, kas atver dziesmu Spotify, un spēlētāji liek dziesmas hronoloģiskā secībā. Kopā 555 latviešu dziesmas.
+HITSTER tipa latviešu mūzikas spēle: katrai kārtij ir QR kods, kas atver dziesmu Spotify, un spēlētāji liek dziesmas hronoloģiskā secībā. Kopā 556 latviešu dziesmas.
 
 Tīmekļa lietotne bez pakalpojumiem un bez būvēšanas: viens `index.html` un dziesmu saraksts `data/songs.json`.
 
