@@ -9642,13 +9642,13 @@
   "isrc": "LVA100200185",
   "label": "Mikrofona Ieraksti",
   "language": "lv",
-  "note": "",
-  "release_date": "2002-01-01",
-  "source": "Actual Release Year from your updated CSV",
+  "note": "Year corrected from 2002 to 1985 (Melodija LP Tik un tā, 1985; 2002 is a compilation; poll 1981)",
+  "release_date": "",
+  "source": "Independent web check (second research session, high confidence)",
   "spotify_track_id": "7bqQNZyFth7ld8IogSBtOH",
   "spotify_url": "https://open.spotify.com/track/7bqQNZyFth7ld8IogSBtOH",
   "title": "Tik un tā",
-  "year": 2002,
+  "year": 1985,
   "year_status": "verified"
  },
  {
