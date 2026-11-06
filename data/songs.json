@@ -1624,14 +1624,14 @@
   "isrc": "LVA100600086",
   "label": "",
   "language": "lv",
-  "note": "Year from Spotify release date; not independently verified",
-  "release_date": "2006-01-01",
-  "source": "Spotify release date of this release",
+  "note": "Year from Spotify release date; not independently verified; Year changed from 2006 to 1980 after year audit round 9",
+  "release_date": "",
+  "source": "Year audit: Round 9 audit: first appeared in the 1980 Mikrofona poll; 2006 is a compilation CD (owner decision: use 1980)",
   "spotify_track_id": "2R0nK5m5bWPDGQB6dtxX2B",
   "spotify_url": "https://open.spotify.com/track/2R0nK5m5bWPDGQB6dtxX2B",
   "title": "Ezers",
-  "year": 2006,
-  "year_status": "spotify"
+  "year": 1980,
+  "year_status": "verified"
  },
  {
   "key": "c088",
@@ -1814,13 +1814,13 @@
   "isrc": "QM6N22147917",
   "label": "",
   "language": "lv",
-  "note": "Compilation (88 - 90, 1996); original year not confirmed; Year corrected from 1996 to 1989 after independent web check",
+  "note": "Compilation (88 - 90, 1996); original year not confirmed; Year corrected from 1996 to 1989 after independent web check; Year changed from 1989 to 1988 after year audit round 9",
   "release_date": "",
-  "source": "Independent web check (4 rounds; first release and first public year agree)",
+  "source": "Year audit: Round 9 audit: 16th in Mikrofona 1988, before the 1989 LP Pilsēta (poll year used)",
   "spotify_track_id": "5m2MA0TjMysz3iTtnsp8CG",
   "spotify_url": "https://open.spotify.com/track/5m2MA0TjMysz3iTtnsp8CG",
   "title": "Šeit lejā",
-  "year": 1989,
+  "year": 1988,
   "year_status": "verified"
  },
  {
@@ -9794,14 +9794,14 @@
   "isrc": "LVC911300036",
   "label": "",
   "language": "lv",
-  "note": "Year from Spotify release date; not independently verified",
-  "release_date": "2013-12-04",
-  "source": "Spotify release date of this release",
+  "note": "Year from Spotify release date; not independently verified; Year changed from 2013 to 2012 after year audit round 9",
+  "release_date": "",
+  "source": "Year audit: Round 9 audit: announced as a new song April 2012; 2013 is the digital single date",
   "spotify_track_id": "2P0WRDfqqBEPcmU42a3OPx",
   "spotify_url": "https://open.spotify.com/track/2P0WRDfqqBEPcmU42a3OPx",
   "title": "Brīva Diena",
-  "year": 2013,
-  "year_status": "spotify"
+  "year": 2012,
+  "year_status": "verified"
  },
  {
   "key": "c531",
@@ -10079,14 +10079,14 @@
   "isrc": "LVA971300002",
   "label": "",
   "language": "lv",
-  "note": "Year from Spotify release date; not independently verified",
-  "release_date": "2013-05-14",
-  "source": "Spotify release date of this release",
+  "note": "Year from Spotify release date; not independently verified; Year changed from 2013 to 2012 after year audit round 9",
+  "release_date": "",
+  "source": "Year audit: Round 9 audit: single and video Nov 2012; album followed May 2013",
   "spotify_track_id": "3tZcFADb82RKplw8jb2Pec",
   "spotify_url": "https://open.spotify.com/track/3tZcFADb82RKplw8jb2Pec",
   "title": "Viss Ir Iespējams",
-  "year": 2013,
-  "year_status": "spotify"
+  "year": 2012,
+  "year_status": "verified"
  },
  {
   "key": "c546",
