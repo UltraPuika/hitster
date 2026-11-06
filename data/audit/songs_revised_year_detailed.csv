@@ -93,7 +93,7 @@ Citi Zēni,Lieka Štuka,2022,2022,no,,high,2022,,False,,,strict pass,https://mus
 Citi Zēni,Limuzīns Uz Krīta,2021,2021,no,,high,2021,,False,,,strict pass,https://lr2.lsm.lv/lv/raksts/muzikala-banka/citi-zeni-izdod-debijas-albumu-un-singlu-limuzins-uz-krita.a151155/,,250
 Citi Zēni,Smalkais Stils,2025,2025,no,,high,2025,2025,False,,,strict pass,https://music.apple.com/us/album/smalkais-stils-single/1844745701,,044
 Crazy Dolls,Koferi,2024,2024,no,,high,2024,,False,,,strict pass,https://crazydolls.bandcamp.com/track/koferi,,146
-Crazy Dolls,Kolosāli,2019,,blank,,low,,1983,True,,conflict;no_dated_release;poll_or_premiere_only;low_confidence,strict pass,https://lv.wikipedia.org/wiki/Varav%C4%ABksne_(grupa),,283
+Crazy Dolls,Kolosāli,1983,1983,no,yes,low,,1983,True,,conflict;no_dated_release;poll_or_premiere_only;low_confidence,strict pass,https://lv.wikipedia.org/wiki/Varav%C4%ABksne_(grupa),,283
 Crazy Dolls,Tā Kā Man Patīk,2021,2021,no,,high,2021,2021,False,,,strict pass,https://crazydolls.bandcamp.com/track/t-k-man-pat-k,,191
 Credo,Disnejlenda,2002,,blank,,low,1984,1984,,,conflict;no_dated_release;low_confidence,deep check,https://lv.wikipedia.org/wiki/Mikrofona_aptauja_1984,,036
 Credo,Kad mēs iemīlēsim,1981,1981,no,yes,medium,1981,1980,False,,conflict,strict pass,https://www.discogs.com/release/5900608-Various-Mikrofons-80,,138
@@ -383,7 +383,7 @@ Olga Rajecka,Saule Riet,2014,2014,no,,high,,,,,,2nd check,"Released as single Ja
 "Olga Rajecka, Violetais Lielvārdes Koris",Ziemeļvējā,2009,,blank,,low,,1991,False,,conflict;no_dated_release;poll_or_premiere_only;low_confidence,strict pass,https://lv.wikipedia.org/wiki/Olga_Rajecka,,532
 Opus Pro,Es un tu,1996,1996,no,,high,,,,,,3rd check,Discogs lists Dzimene cassette (MRCC171) and CD (MRCD052) 1996 with Es Un Tu; Last.fm 11 Apr 1996. 2014 is a compilation. https://www.discogs.com/release/10606068-Opus-Pro-Dzimene https://www.last.fm/,,463
 Opus Pro,Rozā lietus,1996,1996,no,yes,medium,1996,1992,,,conflict;cover_or_rerecording;conflict_second_research,deep check + second research,https://lv.wikipedia.org/wiki/Roz%C4%81_lietus,[unknown/low] written by H. Zariņš; no year found,339
-Otra Puse,Pēc Lietus,1994,1994,no,yes,low,1994,1993,,,conflict;low_confidence,deep check,https://www.discogs.com/release/15194248-Otra-Puse-P%C4%93c-Lietus ; http://otrapuse.net/page/3/,,212
+Otra Puse,Pēc Lietus,1995,1995,no,yes,low,1994,1993,,,conflict;low_confidence,deep check,https://www.discogs.com/release/15194248-Otra-Puse-P%C4%93c-Lietus ; http://otrapuse.net/page/3/,,212
 Otra Puse,Vēstules,1995,1995,no,yes,medium,1995,1994,,,conflict;cover_or_rerecording,deep check,https://dom.lndb.lv/data/obj/836614.html,,405
 "Otra Puse, Aija Andrejeva",Ave Pali (feat. Aija Andrejeva),2011,2011,no,,low,,2011,False,,conflict;poll_or_premiere_only;low_confidence,strict pass,http://www.lanet.lv/news/airplay/2011/110529lv.html,,037
 "Otra Puse, Antra Stafecka",Uzzīmē Mani (feat. Antra Stafecka),2013,2013,no,,medium,2013,,False,,,strict pass,https://parmuziku.lv/muzikas-zinas/latvija/grupa-otra-puse-un-antra-stafecka-izdod-kopdziesmu-1076,,514
@@ -493,10 +493,10 @@ Tautumeitas,Raganu nakts,2018,2018,no,,medium,2018,,False,,,strict pass,https://
 Tautumeitas,Sadziedami,2018,2018,no,,medium,2018,,False,,conflict,strict pass,https://www.lsm.lv/raksts/kultura/muzika/grupa-tautumeitas-prezente-singlu-sadziedami-un-izsludina-papildkoncertu.a288159/,,365
 Tautumeitas,Spodrē manu augumiņu,2020,2020,no,yes,medium,2020,,False,,conflict,strict pass,https://music.apple.com/gb/album/spodr%C4%93-manu-augumi%C5%86u-single/1541983944,,115
 The Sound Poets,Ceļš,2018,2018,no,,medium,2018,,False,,conflict,strict pass,https://www.discogs.com/release/15756063-The-Sound-Poets-Tr%C4%ABs,,337
-The Sound Poets,Emīlija,2013,2013,no,,medium,2013,,False,,conflict,strict pass,https://www.youtube.com/watch?v=wTf0_8__EW0,,082
+The Sound Poets,Emīlija,2011,2011,no,yes,medium,2013,,False,,conflict,strict pass,https://www.youtube.com/watch?v=wTf0_8__EW0,,082
 The Sound Poets,Joprojām - Live,2017,2017,no,,high,2017,,False,,,strict pass,https://www.last.fm/music/The+Sound+Poets/Joproj%C4%81m,,125
-The Sound Poets,Kalniem pāri,2013,2013,no,,medium,2013,,False,,conflict,strict pass,https://open.spotify.com/album/4WSZZ4IIH9fOYO5VM8jVI3,,401
-The Sound Poets,Nāc līdzās,2013,2013,no,,low,2013,,False,,conflict;low_confidence,strict pass,https://open.spotify.com/album/4WSZZ4IIH9fOYO5VM8jVI3,,465
+The Sound Poets,Kalniem pāri,2011,2011,no,yes,medium,2013,,False,,conflict,strict pass,https://open.spotify.com/album/4WSZZ4IIH9fOYO5VM8jVI3,,401
+The Sound Poets,Nāc līdzās,2011,2011,no,yes,low,2013,,False,,conflict;low_confidence,strict pass,https://open.spotify.com/album/4WSZZ4IIH9fOYO5VM8jVI3,,465
 The Sound Poets,Tavi vārdi vētru iesēj,2025,2025,no,,high,,,,,,2nd check,"Deezer/Apple/Shazam: single 15 May 2025, TSP Music https://www.youtube.com/watch?v=_Up6d8NipCA ; jauns.lv article 654521",,521
 The Sound Poets,Tavs stāsts,2013,2013,no,,medium,2013,,False,,conflict,strict pass,https://open.spotify.com/album/4WSZZ4IIH9fOYO5VM8jVI3,,241
 The Sound Poets,Tu manī ugunis dedz,2025,2025,no,yes,high,2025,,False,,,strict pass,https://www.shazam.com/song/1845722470/tu-manc4ab-ugunis-dedz,,222
