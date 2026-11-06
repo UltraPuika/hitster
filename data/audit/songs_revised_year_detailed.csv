@@ -74,7 +74,7 @@ Bermudu Divstūris,Zaudējam Brāli,2017,2017,no,,high,,,,,,2nd check,"Single re
 Bet Bet,Kāpēc Man Nav Sarkans Mercedes,1999,1999,no,yes,low,1999,,False,,conflict;low_confidence,strict pass,https://www.youtube.com/watch?v=3-_85vo-VUc,,469
 Bet Bet,Man vienalga viss,1992,,blank,,low,,,True,1990,conflict;no_dated_release;low_confidence;cover_inferred_original_1990,strict pass + second research,https://www.jiosaavn.com/song/man-vienalga-viss/NSceVQYEfkk,[unknown/low] Latvian version of Bob Geldof 'The Great Song of Indifference' (single June 1990); match inferred from credits; under cover rule original 1990,496
 Bet Bet,Mana mīļā meitene - 2021 Remastered Version,1992,1992,no,,medium,1992,1992,,,conflict;cover_or_rerecording,deep check + second research,https://www.discogs.com/release/3441697-bet-bet-Mana-M%C4%AB%C4%BC%C4%81-Meitene,"[unknown/low] 2021 remaster; aggregator suggests 1991, unverified",481
-Bet Bet,Pieklauvē,1991,1991,no,,owner,,,,,,owner decision + second research,Year set by project owner,[unknown/low] only compilations found,121
+Bet Bet,Pieklauvē,1992,1992,no,yes,owner,,,,,,owner decision + second research,Year set by project owner,[unknown/low] only compilations found,121
 Borowa MC,Vysskaistuokajai Meitinai,2005,2005,no,,high,2005,,False,,conflict,strict pass,https://lv.wikipedia.org/wiki/Trepis_iz_nakur%C4%ABni,,506
 Brali Ziemeli,Uzsniga sniedziņš balts,1987,1987,no,,high,,,,,,3rd check,Won Mikrofona aptauja 1987 (127219 points). https://lv.wikipedia.org/wiki/Mikrofona_aptauja_1987 ; draugiem.lv biography consistent; 2013 is compilation.,,539
 Bruģis,Kaija,1995,1995,no,,medium,1995,,,,conflict;cover_or_rerecording,deep check,https://lv.wikipedia.org/wiki/Kaija_(dziesma),,067
@@ -328,9 +328,9 @@ Mirdza Zīvere,Rudens Ogle,1977,1977,no,,high,,,,,,2nd check,"Placed 4th in 1977
 Mixeri,Neaizliedz sev neko,1999,1999,no,,low,1999,,False,,conflict;low_confidence,strict pass,https://rateyourmusic.com/artist/mixeri,,398
 MM Orķestris,Tur lustīgi saimenieki,2024,2024,no,,medium,2024,,True,,conflict,strict pass,https://open.spotify.com/track/5S3n8kXyaNKIUefdBXQ79q,,269
 Musiqq,Abrakadabra,2009,2009,no,,medium,2009,2009,False,,conflict,strict pass,https://en.wikipedia.org/wiki/Musiqq,,488
-Musiqq,Dari Kā Es,2014,2014,no,,low,2014,2012,False,,conflict;low_confidence,strict pass,https://www.shazam.com/song/936804228/dari-kc481-es,,215
+Musiqq,Dari Kā Es,2013,2013,no,yes,low,2014,2012,False,,conflict;low_confidence,strict pass,https://www.shazam.com/song/936804228/dari-kc481-es,,215
 Musiqq,Dzimšanas Diena,2010,2010,no,,medium,2010,,False,,,strict pass,https://lv.wikipedia.org/wiki/%C5%A0%C4%AB_ir_tikai_m%C5%ABzika,,377
-Musiqq,Dzīve Izdodas,2011,2011,no,yes,low,2011,2010,False,,conflict;low_confidence,strict pass,https://www.draugiem.lv/musiqq/biography/,,100
+Musiqq,Dzīve Izdodas,2010,2010,no,yes,low,2011,2010,False,,conflict;low_confidence,strict pass,https://www.draugiem.lv/musiqq/biography/,,100
 Musiqq,Kanēlis un cukurs,2021,2021,no,,high,2021,2021,False,,conflict,strict pass,https://www.apollo.lv/7236285/pec-ka-garso-bucas-grupa-musiqq-izdevusi-jaunu-dziesmu (29.04.2021),,068
 Musiqq,Lai kvēl,2024,2024,no,,medium,2024,2024,False,,conflict,strict pass,https://x.com/MusiqqOfficial,,296
 Musiqq,No 10 - 10,2010,2010,no,,medium,2010,,False,,conflict,strict pass,https://lv.wikipedia.org/wiki/%C5%A0%C4%AB_ir_tikai_m%C5%ABzika,,238
