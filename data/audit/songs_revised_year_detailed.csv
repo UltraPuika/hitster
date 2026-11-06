@@ -72,7 +72,7 @@ Bermudu Divstūris,Zaudējam Brāli,2017,2017,no,,high,,,,,,2nd check,"Single re
 "Bermudu Divstūris, Auli",Līgava,2022,2022,no,,high,2022,,False,,conflict,strict pass,https://music.apple.com/us/album/l%C4%ABgava-feat-auli-single/1610507997,,229
 "Bermudu Divstūris, Olga Rajecka",Vidēji Glīts,2022,2022,no,,high,2022,,False,,conflict,strict pass,https://music.apple.com/us/album/vid%C4%93ji-gl%C4%ABts-feat-olga-rajecka-single/1624051672,,081
 Bet Bet,Kāpēc Man Nav Sarkans Mercedes,1999,1999,no,yes,low,1999,,False,,conflict;low_confidence,strict pass,https://www.youtube.com/watch?v=3-_85vo-VUc,,469
-Bet Bet,Man vienalga viss,1992,,blank,,low,,,True,1990,conflict;no_dated_release;low_confidence;cover_inferred_original_1990,strict pass + second research,https://www.jiosaavn.com/song/man-vienalga-viss/NSceVQYEfkk,[unknown/low] Latvian version of Bob Geldof 'The Great Song of Indifference' (single June 1990); match inferred from credits; under cover rule original 1990,496
+Bet Bet,Man vienalga viss,1990,1990,no,yes,low,,,True,1990,conflict;no_dated_release;low_confidence;cover_inferred_original_1990,strict pass + second research,https://www.jiosaavn.com/song/man-vienalga-viss/NSceVQYEfkk,[unknown/low] Latvian version of Bob Geldof 'The Great Song of Indifference' (single June 1990); match inferred from credits; under cover rule original 1990,496
 Bet Bet,Mana mīļā meitene - 2021 Remastered Version,1992,1992,no,,medium,1992,1992,,,conflict;cover_or_rerecording,deep check + second research,https://www.discogs.com/release/3441697-bet-bet-Mana-M%C4%AB%C4%BC%C4%81-Meitene,"[unknown/low] 2021 remaster; aggregator suggests 1991, unverified",481
 Bet Bet,Pieklauvē,1992,1992,no,yes,owner,,,,,,owner decision + second research,Year set by project owner,[unknown/low] only compilations found,121
 Borowa MC,Vysskaistuokajai Meitinai,2005,2005,no,,high,2005,,False,,conflict,strict pass,https://lv.wikipedia.org/wiki/Trepis_iz_nakur%C4%ABni,,506
@@ -162,7 +162,7 @@ Fomins & Kleins,Dziesma Par Laimi (Acoustic),2004,2004,no,,medium,2004,2004,True
 Fomins & Kleins,Kur esi tu,2003,2003,no,,medium,2003,,False,,conflict,strict pass,https://lv.wikipedia.org/wiki/Muzikants_(albums),,268
 Fomins & Kleins,Muzikants,2003,2003,no,,medium,2003,2003,False,,,strict pass,https://en.wikipedia.org/wiki/Fomins_and_Kleins,,517
 Fomins & Kleins,Sniegs,2002,2002,no,,medium,2002,2002,,,conflict,deep check,https://en.wikipedia.org/wiki/Fomins_and_Kleins,,287
-"Framest, Raimonds Pauls",Vecpilsētā,2017,,blank,,low,,,,,inconclusive;low_confidence,3rd check,YouTube credits phonogram (P) 2015 Dzintaru koncertzale; RYM 2015; but Amazon/Apple/JioSaavn list 2017 (Amazon 13 Jul 2017). No dated 2015 release confirmed. https://www.amazon.com/Amber-Jazz-FRAMEST-,,432
+"Framest, Raimonds Pauls",Vecpilsētā,1957,1957,no,yes,low,,,,,inconclusive;low_confidence,3rd check,YouTube credits phonogram (P) 2015 Dzintaru koncertzale; RYM 2015; but Amazon/Apple/JioSaavn list 2017 (Amazon 13 Jul 2017). No dated 2015 release confirmed. https://www.amazon.com/Amber-Jazz-FRAMEST-,,432
 GACHO,Meitene,2021,2021,no,,medium,2021,,False,,,strict pass,https://music.apple.com/us/album/meitene-single/1571963373,,561
 GACHO,Viktors,2017,2017,no,,high,2017,2017,False,,,strict pass,https://music.apple.com/us/album/viktors-single/1258110351,,076
 GACHO,Vējiem Līdzi,2025,2025,no,,high,2025,,False,,,strict pass,https://music.apple.com/ca/song/v%C4%93jiem-l%C4%ABdzi/1829826630,,362
@@ -247,7 +247,7 @@ Jumprava,Šeit lejā,1989,1989,no,,medium,1989,1989,,,conflict,deep check,https:
 Justs,Heartbeat,2016,2016,no,,high,2016,2016,False,,conflict,strict pass,https://music.apple.com/us/album/heartbeat-single/1081708554,,009
 "Jānis Grodums, Līvi",Bailes Par Ziņģi,1982,,blank,,low,,1981,False,,no_dated_release;poll_or_premiere_only;low_confidence,strict pass,https://enciklopedija.lv/skirklis/105634,,366
 Jānis Paukštello,Cielaviņa,1982,,blank,,low,,1982,False,,no_dated_release;poll_or_premiere_only;low_confidence,strict pass,https://lv.wikipedia.org/wiki/Mikrofona_aptauja_1982,,264
-Jātnieki,Balle Baložos,2012,2012,no,yes,medium,2012,2011,,,conflict;cover_or_rerecording,deep check,https://www.amazon.com/Dzimusi-muzikai-Various-artists/dp/B0097UNX7G,,439
+Jātnieki,Balle Baložos,2011,2011,no,yes,medium,2012,2011,,,conflict;cover_or_rerecording,deep check,https://www.amazon.com/Dzimusi-muzikai-Various-artists/dp/B0097UNX7G,,439
 Kantoris 04,Balts rīts,1996,1996,no,,high,,,,,,2nd check,"Discogs 11973714 and RYM: Balts rīts cassette, Studija Mix MIX 010, 1996; 2001 is Labākie Šlāgeri compilation",,064
 Kaspars Dimiters,Glāze ūdens,1995,1995,no,,high,,,,,,3rd check,"Album Krusta skola... released 1 May 1995 (Bandcamp, track 12); Mail.ru lists MC/CD 1995. https://nebruks.bandcamp.com/track/gl-ze-dens",,265
 Kaspars Dimiters,Princesīte,1982,1982,no,yes,medium,1982,1981,,,conflict,deep check,https://www.discogs.com/release/5697564-Various-Mikrofons-81-1,,487
@@ -380,7 +380,7 @@ OLAS,Zemgus Girgensons,2015,2015,no,,medium,2015,2015,False,,,strict pass,https:
 "OLAS, Renārs Zeltiņš",#Prezidents (feat. Renārs Zeltiņš),2015,2015,no,,medium,2015,2015,False,,,strict pass,https://open.spotify.com/track/2yIB35XFZGTMFECaFEZuIg,,155
 Olga Rajecka,Ar Baltu Krītu Uzrakstīts,2002,2002,no,,low,2002,,False,,conflict;low_confidence,strict pass,https://lv.wikipedia.org/wiki/Olga_Rajecka,,177
 Olga Rajecka,Saule Riet,2014,2014,no,,high,,,,,,2nd check,"Released as single Jan 2014 (Olga un Līgo) for Dziesma 2014, Apple Music 15 Jan 2014 https://music.apple.com/us/album/saule-riet-dween-extended-remix-single/805794382 ; solo Rajecka version 2015.",,553
-"Olga Rajecka, Violetais Lielvārdes Koris",Ziemeļvējā,2009,,blank,,low,,1991,False,,conflict;no_dated_release;poll_or_premiere_only;low_confidence,strict pass,https://lv.wikipedia.org/wiki/Olga_Rajecka,,532
+"Olga Rajecka, Violetais Lielvārdes Koris",Ziemeļvējā,1991,1991,no,yes,low,,1991,False,,conflict;no_dated_release;poll_or_premiere_only;low_confidence,strict pass,https://lv.wikipedia.org/wiki/Olga_Rajecka,,532
 Opus Pro,Es un tu,1996,1996,no,,high,,,,,,3rd check,Discogs lists Dzimene cassette (MRCC171) and CD (MRCD052) 1996 with Es Un Tu; Last.fm 11 Apr 1996. 2014 is a compilation. https://www.discogs.com/release/10606068-Opus-Pro-Dzimene https://www.last.fm/,,463
 Opus Pro,Rozā lietus,1996,1996,no,yes,medium,1996,1992,,,conflict;cover_or_rerecording;conflict_second_research,deep check + second research,https://lv.wikipedia.org/wiki/Roz%C4%81_lietus,[unknown/low] written by H. Zariņš; no year found,339
 Otra Puse,Pēc Lietus,1995,1995,no,yes,low,1994,1993,,,conflict;low_confidence,deep check,https://www.discogs.com/release/15194248-Otra-Puse-P%C4%93c-Lietus ; http://otrapuse.net/page/3/,,212
@@ -394,7 +394,7 @@ Ozols,Personības Rekords,2018,2018,no,,medium,2018,,False,,conflict,strict pass
 "Ozols, Janis Stibelis",Kopā,2002,2002,no,,medium,2002,,False,,,strict pass,"https://lv.wikipedia.org/wiki/Augst%C4%81k,_t%C4%81l%C4%81k,_stipr%C4%81k",,468
 Patrisha,Es Varu Būt Tā,2019,2019,no,,high,2019,,False,,,strict pass,https://open.spotify.com/album/5EOK4Wkz5W68SgSk9YsGHn (1 Feb 2019); https://en.wikipedia.org/wiki/Patrisha,,493
 "Patrisha, I MEAN LOVE",Gribu,2025,2025,no,,medium,2025,,False,,conflict,strict pass,https://music.apple.com/lv/song/gribu/1848320784,,006
-"PeR, Mārtiņš Freimanis",Bums,1998,1998,no,yes,medium,1998,,True,1998,conflict,strict pass,https://www.discogs.com/release/9612570-Tumsa-Putni,,172
+"PeR, Mārtiņš Freimanis",Bums,1998,1998,no,yes,medium,1998,,True,1998,conflict,strict pass,https://www.discogs.com/release/9612570-Tumsa-Putni,[round 8] Bums: Superizlase 10 dated 2009 (placeholder 1 Jan) is an upper bound; kept the earlier 1998 Tumsa album year,172
 Pienvedēja piedzīvojumi,Kāpēc tu mani negribi,1982,1982,no,yes,medium,1982,,True,1982,conflict;tape_album_original,strict pass + second research,https://en.wikipedia.org/wiki/Man_%C4%BCoti_pat%C4%ABk_jaunais_vilnis,"[change/medium] Cover of Dzeltenie Pastnieki; original magnitizdat tape 1982, official release 2003",336
 Pienvedēja piedzīvojumi,Laimīgs,2002,2002,no,,medium,2002,,False,,conflict,strict pass,https://www.discogs.com/release/14756771,,141
 Pienvedēja piedzīvojumi,Sapnis,2002,2002,no,,high,,,,,,2nd check,"Track 8 on PP4 (Pasadena, 2002), https://www.discogs.com/release/14756771-Pienved%C4%93ja-Piedz%C4%ABvojumi-PP4 ; Sapnis won rock song in Latvijas Mūzikas ierakstu gada balva 2002 (lv.wikipedia). 2004",,171
