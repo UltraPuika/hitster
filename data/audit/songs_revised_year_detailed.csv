@@ -8,7 +8,7 @@ A-Europa,Tur Kur Lietus Krīt,2003,2003,no,,medium,2003,,,,conflict,deep check,h
 Aigars Grāvers,Dūdieviņš,1967,1967,no,yes,owner,,,,,,owner decision,Year set by project owner,,461
 Aija Andrejeva,Blēņas,2018,2018,no,,medium,2018,,False,,,strict pass,https://www.shazam.com/en-us/song/1342674448/blenas,,159
 Aija Andrejeva,Laime Šī,2020,2020,no,,medium,2020,,False,,conflict,strict pass,https://music.apple.com/gb/album/laime-%C5%A1%C4%AB-single/1502406153 (13 Mar 2020),,150
-"Aija Andrejeva, Opus Pro, Aisha",Tu un es,1988,2006,yes,,medium,2006,2004,,,conflict;cover_or_rerecording;younger,deep check,https://www.deezer.com/en/track/1613459,,428
+"Aija Andrejeva, Opus Pro, Aisha",Tu un es,2006,2006,no,yes,medium,2006,2004,,,conflict;cover_or_rerecording,deep check,https://www.deezer.com/en/track/1613459,,428
 Aija Kukule,Dāvāja Māriņa,1981,,blank,,low,,1981,False,,no_dated_release;poll_or_premiere_only;low_confidence,strict pass,https://enciklopedija.lv/skirklis/196112,,368
 Ainars Mielavs,Tu saviļņoji mani,2002,2002,no,,medium,2002,,False,,conflict,strict pass,https://www.deezer.com/en/track/62107120,,014
 "Ainars Mielavs, Kaspars Putniņš, Andris Alviķis",Es izjāju prūšu zemi,1998,,blank,,low,,,True,,conflict;no_dated_release;low_confidence,strict pass,https://www.deezer.com/en/track/835672042,,051
@@ -20,7 +20,7 @@ Aminata,Liela Meitene,2025,2025,no,,medium,2025,2025,False,,,strict pass,https:/
 Aminata,Maiga Vara,2019,2019,no,,medium,2019,2019,False,,,strict pass,https://tv3.lv/izklaide/muzika/aminata-izdod-singla-maiga-vara-originalo-versiju/,,226
 "Aminata, Sudden Lights",Ataust rīts,2024,2024,no,,high,2024,,False,,,strict pass,https://music.apple.com/gh/album/ataust-r%C4%ABts-feat-sudden-lights-single/1737422192,,291
 "Aminata, ZEĻĢIS",Uz Neatgriešanos,2025,2025,no,,high,2025,,False,,,strict pass,https://www.apollo.lv/8318065/aminata-izdod-jaunu-dziesmu-dueta-ar-reperi-zelgi-un-izzino-albuma-liela-meitene-iznaksanu,,031
-Ance Krauze,Sasala Jūrīna,2002,2003,yes,,low,2003,,False,2003,conflict;low_confidence;younger,strict pass,https://www.raimondspauls.lv/compositions/sasala-jurina/,,480
+Ance Krauze,Sasala Jūrīna,2003,2003,no,yes,low,2003,,False,2003,conflict;low_confidence,strict pass,https://www.raimondspauls.lv/compositions/sasala-jurina/,,480
 Ance Krauze,Šūpoles,2002,2002,no,,high,2002,,False,,,strict pass,https://www.discogs.com/release/22006375-Ance-Krauze-%C5%A0%C5%ABpoles,,025
 "Ance Krauze, Normunds Rutulis",Cāļus skaita rudenī,2003,2003,no,,medium,2003,2003,False,,,strict pass,https://www.raimondspauls.lv/compositions/calus-skaita-rudeni/,,414
 "Ance Krauze, Normunds Rutulis",Lecam pa vecam,2003,2003,no,,medium,2003,,False,,conflict,strict pass,https://www.deezer.com/us/album/166119,,101
@@ -56,7 +56,7 @@ Autobuss debesis,Tev nebija laika,2002,2002,no,,high,2002,,False,,,strict pass,h
 Bermudu Divstūris,#Sarkanbaltsarkanais,2019,2019,no,,high,2019,,False,,,strict pass,https://music.apple.com/us/album/sarkanbaltsarkanais-single/1487647480,,059
 Bermudu Divstūris,Ballejam Negulam - Original Mix,2014,2014,no,,low,2014,,False,,conflict;low_confidence,strict pass,https://music.apple.com/bw/album/ballejam-negulam/947051721,,453
 Bermudu Divstūris,Boja - Original Mix,2014,2014,no,,medium,2014,,False,,conflict,strict pass,https://www.discogs.com/release/13106483-Bermudu-Divst%C5%ABris-Ball%C4%93jam-Negu%C4%BCam,,078
-Bermudu Divstūris,Disko - Original Mix,2014,2012,yes,,low,2012,,False,,conflict;low_confidence,strict pass,https://music.apple.com/lv/album/disko-single/580965845,,384
+Bermudu Divstūris,Disko - Original Mix,2012,2012,no,yes,low,2012,,False,,conflict;low_confidence,strict pass,https://music.apple.com/lv/album/disko-single/580965845,[round 5] Round 5 audit: single 17 Oct 2012 (MicRec),384
 Bermudu Divstūris,Freona meitene,2021,2021,no,,high,,,,,,2nd check,Single released 8 March 2021 per Apple Music. https://music.apple.com/gb/album/freona-meitene-single/1557348871,,345
 Bermudu Divstūris,Labi - Original Mix,2014,2014,no,,medium,2014,,False,,conflict,strict pass,https://www.last.fm/music/Bermudu+Divst%C5%ABris/Ball%C4%93jam+Negu%C4%BCam,,555
 Bermudu Divstūris,"Ne man gucci, ne man nike",2020,2020,no,,high,2020,,False,,,strict pass,https://www.deezer.com/en/album/154746862,,088
@@ -71,7 +71,7 @@ Bermudu Divstūris,Zaudējam Brāli,2017,2017,no,,high,,,,,,2nd check,"Single re
 "Bermudu Divstūris, Apvedceļš",Brāl' Ar Dzīvi Nekaulē,2022,2022,no,,high,2022,,False,,conflict,strict pass,https://lr2.lsm.lv/lv/raksts/muzikas-jaunumi/bermudu-divsturis-un-apvedcels-laidis-klaja-singlu-bral-ar-dzivi.a162461/,,451
 "Bermudu Divstūris, Auli",Līgava,2022,2022,no,,high,2022,,False,,conflict,strict pass,https://music.apple.com/us/album/l%C4%ABgava-feat-auli-single/1610507997,,229
 "Bermudu Divstūris, Olga Rajecka",Vidēji Glīts,2022,2022,no,,high,2022,,False,,conflict,strict pass,https://music.apple.com/us/album/vid%C4%93ji-gl%C4%ABts-feat-olga-rajecka-single/1624051672,,081
-Bet Bet,Kāpēc Man Nav Sarkans Mercedes,2014,1999,yes,,low,1999,,False,,conflict;low_confidence,strict pass,https://www.youtube.com/watch?v=3-_85vo-VUc,,469
+Bet Bet,Kāpēc Man Nav Sarkans Mercedes,1999,1999,no,yes,low,1999,,False,,conflict;low_confidence,strict pass,https://www.youtube.com/watch?v=3-_85vo-VUc,,469
 Bet Bet,Man vienalga viss,1992,,blank,,low,,,True,1990,conflict;no_dated_release;low_confidence;cover_inferred_original_1990,strict pass + second research,https://www.jiosaavn.com/song/man-vienalga-viss/NSceVQYEfkk,[unknown/low] Latvian version of Bob Geldof 'The Great Song of Indifference' (single June 1990); match inferred from credits; under cover rule original 1990,496
 Bet Bet,Mana mīļā meitene - 2021 Remastered Version,1992,1992,no,,medium,1992,1992,,,conflict;cover_or_rerecording,deep check + second research,https://www.discogs.com/release/3441697-bet-bet-Mana-M%C4%AB%C4%BC%C4%81-Meitene,"[unknown/low] 2021 remaster; aggregator suggests 1991, unverified",481
 Bet Bet,Pieklauvē,1991,1991,no,,owner,,,,,,owner decision + second research,Year set by project owner,[unknown/low] only compilations found,121
@@ -80,10 +80,10 @@ Brali Ziemeli,Uzsniga sniedziņš balts,1987,1987,no,,high,,,,,,3rd check,Won Mi
 Bruģis,Kaija,1995,1995,no,,medium,1995,,,,conflict;cover_or_rerecording,deep check,https://lv.wikipedia.org/wiki/Kaija_(dziesma),,067
 Bujāns,Tu Esi Labākais,2017,2017,no,yes,high,2017,2017,False,,conflict,strict pass,https://intarsbusulis.bandcamp.com/track/tu-esi-lab-kais,,128
 Bukte,Viņai Ir Draugs,2023,2023,no,,high,2023,2023,False,,,strict pass,https://www.amazon.com/-/es/Bukte/dp/B0CBQTBJ6B,,417
-"Bāze 7, Olga Rajecka",Kad man vairs nebūs 16,1994,1993,yes,,low,1993,1993,False,,conflict;low_confidence,strict pass,https://wikiwand.com/lv/Olga_Rajecka,,540
+"Bāze 7, Olga Rajecka",Kad man vairs nebūs 16,1993,1993,no,yes,low,1993,1993,False,,conflict;low_confidence,strict pass,https://wikiwand.com/lv/Olga_Rajecka,,540
 Būū,Milzīte Ilzīte '26,1990,1990,no,yes,medium,1990,1990,True,1990,conflict,strict pass,https://musicbrainz.org/release/2e49e2dc-a19d-435a-a351-0765d8438ada,,161
 Būū,Sāku no sākuma,2021,2021,no,,high,2021,,False,,conflict,strict pass,https://sejas.tvnet.lv/7286179/buu-kas-parsteidz-ar-nedaudz-feministisku-netradicionalu-popu,,259
-Carnival Youth,Dzeguzes balss,2021,1967,yes,,low,,1967,True,1967,conflict;poll_or_premiere_only;low_confidence,strict pass,https://en.wikipedia.org/wiki/Four_White_Shirts,,184
+Carnival Youth,Dzeguzes balss,1967,1967,no,yes,low,,1967,True,1967,conflict;poll_or_premiere_only;low_confidence,strict pass,https://en.wikipedia.org/wiki/Four_White_Shirts,,184
 Carnival Youth,Vasara bez internetiem,2019,2019,no,yes,high,2019,2019,True,2019,conflict,strict pass,https://mumiytroll.com/news/3072,,134
 "Carnival Youth, Evija Vēbere",Labākā doma pasaulē,2025,2025,no,,high,2025,,False,,conflict,strict pass,https://open.spotify.com/album/411jVeZGIVecGFW5abMDUa,,083
 "Carnival Youth, Fiņķis",Puķes,2025,2025,no,,high,2025,2025,False,,,strict pass,https://www.gammabalva.lv/musician/finkis,,275
@@ -100,7 +100,7 @@ Credo,Kad mēs iemīlēsim,1981,1981,no,yes,medium,1981,1980,False,,conflict,str
 Credo,Meitene ar kallu ziediem,1986,,blank,,low,,1981,False,,conflict;no_dated_release;poll_or_premiere_only;low_confidence,strict pass,https://www.raimondspauls.lv/compositions/meitene-ar-kallu-ziediem/,,179
 Credo,Tur aiz mākoņiem ir saule,1986,,blank,,low,,,False,,conflict;no_dated_release;low_confidence,strict pass,,,249
 Credo,Ziņģe par bailēm,1980,,blank,,low,,1980,False,,conflict;no_dated_release;poll_or_premiere_only;low_confidence,strict pass,https://timenote.info/lv/Aldis-Langbaums,,154
-Dakota,Dzeltenie aizkari,2009,,blank,,low,,1981,False,,conflict;no_dated_release;poll_or_premiere_only;low_confidence,strict pass,https://enciklopedija.lv/skirklis/105836-%E2%80%9CD%C4%81lderi%E2%80%9D,,207
+Dakota,Dzeltenie aizkari,1981,1981,no,yes,low,,1981,False,,conflict;no_dated_release;poll_or_premiere_only;low_confidence,strict pass,https://enciklopedija.lv/skirklis/105836-%E2%80%9CD%C4%81lderi%E2%80%9D,[round 5] Round 5 audit: original Dālderi song 1981 (cover rule),207
 Dakota,Kurtizāņu ugunskurs,2002,2002,no,,medium,2002,2002,False,,,strict pass,https://www.discogs.com/release/17555260,,311
 "Deniss, Silraq, Sudrabu Sirds",PASĒDĒT,2025,2025,no,,high,2025,2025,False,,,strict pass,https://hiphops.lv/deniss-plejades/,,355
 "Deniss, Sudrabu Sirds",Lidojam tik augstu,2024,2024,no,,high,,,,,,2nd check,"Single released 21.08.2024, second single from album 22; multiple news sources (https://hiphops.lv/deniss-sudrabu-sirds-lidojam-tik-augstu/, https://tv3.lv/izklaide/muzika/kreisa-krasta-reperis-deniss",,090
@@ -112,7 +112,7 @@ Dons,Es Naktu Majas,2019,2019,no,,high,,,,,,3rd check,Apple Music and Spotify li
 Dons,Ilgoties Man Nesanak,2020,2020,no,,high,2020,2020,False,,,strict pass,https://sejas.tvnet.lv/6871719/dons-laiz-klaja-jaunu-dziesmu-ilgoties-man-nesanak (13-14 Jan 2020),,290
 Dons,Jau Rīt,2025,2025,no,,high,2025,,False,,,strict pass,https://jauns.lv/raksts/izklaide/672413-dons-laiz-klaja-rotaligu-singlu-jau-rit-un-izzino-koncertu-daugavas-stadiona,,569
 Dons,Klusums kliedz,2024,2024,no,,medium,2024,,False,,,strict pass,https://open.spotify.com/track/2KJqQHkkPZHlhItGoEqwXl,,007
-Dons,Kolekcionārs,2008,2007,yes,,low,2007,,False,,conflict;low_confidence,strict pass,https://en.wikipedia.org/wiki/Dons_(singer),,185
+Dons,Kolekcionārs,2007,2007,no,yes,low,2007,,False,,conflict;low_confidence,strict pass,https://en.wikipedia.org/wiki/Dons_(singer),,185
 Dons,Lauzto šķēpu karaļvalsts,2023,2023,no,,high,2023,2023,False,,conflict,strict pass,https://music.apple.com/lv/album/lauzto-%C5%A1%C4%B7%C4%93pu-kara%C4%BCvalsts-single/1704844723,,217
 Dons,Masa Upe,2013,2013,no,,medium,2013,2013,False,,conflict,strict pass,https://musicbrainz.org/release/26f3758b-c9ad-47ae-849e-7345025eea06,,235
 Dons,Pa Celam,2017,2017,no,,high,2017,2017,False,,,strict pass,https://sejas.tvnet.lv/4557194/dons-izdod-jaunu-dziesmu-pa-celam-un-izzino-koncertu,,418
@@ -149,9 +149,9 @@ Eldorado,Pludmalē - Āfrikas mix,1997,1997,no,,medium,,,,,,2nd check,"Discogs: 
 Elizabete Gaile,"Zinu, ka pāries",2024,2024,no,,high,2024,2024,False,,,strict pass,https://www.shazam.com/artist/elizabete-gaile/1247709613,,449
 EMILIJA,Pašam būt,2025,2025,no,,high,2025,2025,False,,,strict pass,https://sejas.tvnet.lv/8307257/emilija-iepriecina-fanus-izdodot-dziesmu-pasam-but,,383
 EMILIJA,Sirds pelnos,2023,2023,no,,medium,2023,2023,False,,conflict,strict pass,https://music.apple.com/gb/album/sirds-pelnos-single/1720743194,,562
-Eolika,Es Neesmu Džeina Fonda,1982,1996,yes,,low,1996,1987,False,,conflict;low_confidence;younger,strict pass,https://en.muztext.com/lyrics/eolika-es-neesmu-d-eina-fonda,,004
+Eolika,Es Neesmu Džeina Fonda,1996,1996,no,yes,low,1996,1987,False,,conflict;low_confidence,strict pass,https://en.muztext.com/lyrics/eolika-es-neesmu-d-eina-fonda,,004
 Eolika,"Pasaule, Pasaulīt",1985,1985,no,,medium,1985,1985,False,,conflict,strict pass,"https://lv.wikipedia.org/wiki/Pasaule,_pasaul%C4%ABt",,289
-Eolika,R. Paula Dziesmu Popūrijs,1982,1996,yes,,low,1996,,True,,conflict;low_confidence;younger,strict pass,https://enciklopedija.lv/skirklis/58653,,318
+Eolika,R. Paula Dziesmu Popūrijs,1996,1996,no,yes,low,1996,,True,,conflict;low_confidence,strict pass,https://enciklopedija.lv/skirklis/58653,,318
 Eolika,Zemeņu Lauks,1985,1985,no,,medium,1985,1985,False,,conflict,strict pass,"https://lv.wikipedia.org/wiki/Pasaule,_pasaul%C4%ABt",,136
 "Favorīts, Aivis",Velniņš,2001,2001,no,,medium,2001,,False,,,strict pass,https://www.discogs.com/release/5123491-Favor%C4%ABts-Aivis-Velni%C5%86%C5%A1,,498
 Ferrum,Dzērvenīte,1987,,blank,,low,,1987,False,,no_dated_release;poll_or_premiere_only;low_confidence,strict pass,https://disconakts.lv/2018/02/03/aivars-lapsans-muzikala-grupa-ferrum/,,375
@@ -183,7 +183,7 @@ Gustavo,Pluss Mīnuss,2010,2010,no,,high,2010,2010,False,,conflict,strict pass,h
 Hameleoni,Tu Mana Sirds,1998,1998,no,,low,1998,1998,False,,conflict;low_confidence,strict pass,https://www.discogs.com/release/15689336-Hameleoni-Tu-Mana-Sirds,,489
 "HAMILLI, MUUD",Tu esi skaista,2021,2021,no,,medium,2021,,False,,,strict pass,https://music.apple.com/us/artist/hamilli/1475871801,,034
 Haralds Sīmanis,Ezers,2006,2006,no,,low,2006,1980,False,,conflict;low_confidence,strict pass,https://www.micrec.lv/lv/ieraksts/starp-divam-gaismam,,087
-"Harijs Spanovskis, Jānis Paukštello, Pažarnieku Pūtēju Orķestris",Pie Dzintara Jūras,2005,1937,yes,,low,1937,1937,True,1937,conflict;low_confidence,strict pass,https://enciklopedija.lv/skirklis/111566,,175
+"Harijs Spanovskis, Jānis Paukštello, Pažarnieku Pūtēju Orķestris",Pie Dzintara Jūras,1937,1937,no,yes,low,1937,1937,True,1937,conflict;low_confidence,strict pass,https://enciklopedija.lv/skirklis/111566,,175
 "Harijs Spanovskis, Raimonds Pauls",Trīs Lietas,1999,1999,no,,high,1999,,False,,conflict,strict pass,https://www.discogs.com/release/14029250-Raimonds-Pauls-Harijs-Spanovskis-%C4%8Caka-Ielas-Dziesmas,,042
 Ieva Akuratere,Manai tautai,1978,1978,no,yes,medium,,,,,,2nd check,"enciklopedija.lv: song recorded at Melodija, LP Spogulis, Melodija 1989; Discogs Melodija C60 28197 009 1989 (https://enciklopedija.lv/skirklis/197050-%E2%80%9CManai-tautai%E2%80%9D). 1988 is only a l",,098
 IGO,Bet Dzīvē Viss Ir Savādāk,1999,1999,no,,medium,1999,,False,,conflict,strict pass,https://www.micrec.lv/lv/ieraksts/igo-bet-dzive-viss-ir-savadak-cd,,559
@@ -228,17 +228,17 @@ Iļģi,"Ai tumsa nakte, zala zale",2007,2007,no,,owner,,,,,,owner decision,Year 
 Iļģi,Seju veju,2000,2000,no,,medium,2000,,False,,conflict,strict pass,https://discogs.com/I%C4%BC%C4%A3i-S%C4%93ju-V%C4%93ju/master/970814,,346
 Janis Stibelis,Ir Tik Karsts,2014,2014,no,,low,2014,,False,,low_confidence,strict pass,https://www.deezer.com/en/artist/126146,,309
 Jauns Mēness,"Ai, jel manu vieglu prātu",1997,,blank,,low,1997,,True,,no_dated_release;low_confidence,strict pass,"https://lv.wikipedia.org/wiki/Ai,_jel_manu_vieglu_pr%C4%81tu",,512
-Jauns Mēness,Kad mēness jūrā krīt,2003,1995,yes,,low,1995,1992,False,,conflict;low_confidence;conflict_second_research,strict pass + second research,https://music.apple.com/lt/song/kad-m%C4%93ness-j%C5%ABr%C4%81-kr%C4%ABt/1497891868,[change/low] On The Best of Jauns Mēness (P) 1995; 1992 = poll (video title only); conservative alternative 1995,110
+Jauns Mēness,Kad mēness jūrā krīt,1995,1995,no,yes,low,1995,1992,False,,conflict;low_confidence;conflict_second_research,strict pass + second research,https://music.apple.com/lt/song/kad-m%C4%93ness-j%C5%ABr%C4%81-kr%C4%ABt/1497891868,[change/low] On The Best of Jauns Mēness (P) 1995; 1992 = poll (video title only); conservative alternative 1995,110
 Jauns Mēness,Piekūns skrien debesīs,1991,1991,no,,medium,1991,1991,False,,conflict,strict pass + second research,https://www.discogs.com/release/1826897-Jauns-M%C4%93ness-Aizlaid-%C5%A0aubas-Negaisam-L%C4%ABdz,[ok/medium] 3rd place Mikrofons '91; poll-only; first record not verified,335
 Jauns Mēness,Pārcēlājs,1990,,blank,,low,,1990,False,,conflict;no_dated_release;poll_or_premiere_only;low_confidence,strict pass + second research,https://lv.wikipedia.org/wiki/Mikrofona_aptauja_1991,[unknown/low] 13th place Mikrofons 1991; on 1987-1990 Izlase (2015); do not make younger without record evidence,120
 Jenny May,Es Gribu Vel Milet,2014,2014,no,,low,2014,,False,,conflict;low_confidence,strict pass,https://open.spotify.com/track/0pPwwZZIkp3Pgel9oWTQoF,,099
-"Jenny May, Double Faced Eels",Bez Puišiem Nevar,2007,2007,no,,high,2007,1980,,,conflict;cover_or_rerecording,deep check,https://www.apollo.lv/4995445/i-jenny-may-i-bez-puisiem-nevar ; https://lv.wikipedia.org/wiki/Double_Faced_Eels,,281
-"Jenny May, Jānis Grodums",Nāk nakts,2009,2009,no,,medium,2009,,False,,conflict,strict pass,https://music.apple.com/us/album/n%C4%81k-nakts/850144153,,256
+"Jenny May, Double Faced Eels",Bez Puišiem Nevar,1983,1983,no,yes,high,2007,1980,,,conflict;cover_or_rerecording,deep check,https://www.apollo.lv/4995445/i-jenny-may-i-bez-puisiem-nevar ; https://lv.wikipedia.org/wiki/Double_Faced_Eels,[round 5] Round 5 audit: first on 1983 Melodiya film-music LP (cover rule),281
+"Jenny May, Jānis Grodums",Nāk nakts,1987,1987,no,yes,medium,2009,,False,,conflict,strict pass,https://music.apple.com/us/album/n%C4%81k-nakts/850144153,[round 5] Round 5 audit: original Metronoms 1987 (cover rule),256
 Jumprava,Baltā,1990,1990,no,,low,1990,1990,,,conflict;low_confidence,deep check,https://www.discogs.com/release/3687883-Various-Mikrofona-Rok-Aptauja-90,,152
 Jumprava,Lēnā upe,1998,1998,no,,high,1998,,False,,,strict pass,https://www.discogs.com/release/9258325-Jumprava-Laika-At%C5%A1%C4%B7ir%C4%ABbu-Romance,,218
 Jumprava,Murgi naktī,2007,2007,no,,medium,2007,,False,,,strict pass + second research,https://www.amazon.com/D%C4%81vida-%C5%A1ovs/dp/B01LYM378K,[unknown/low] rock opera Izredzētais; only aggregator date 2007,280
 Jumprava,Peldētājs,1990,,blank,,low,,1991,False,,conflict;no_dated_release;poll_or_premiere_only;low_confidence,strict pass,https://www.draugiem.lv/jump/biography/,,299
-Jumprava,Prom no pilsētas,1986,1987,yes,,low,1987,1986,False,,conflict;low_confidence;younger,strict pass,https://lv.wikipedia.org/wiki/Mikrofona_aptauja_1986,,065
+Jumprava,Prom no pilsētas,1987,1987,no,yes,low,1987,1986,False,,conflict;low_confidence,strict pass,https://lv.wikipedia.org/wiki/Mikrofona_aptauja_1986,,065
 Jumprava,Tālu aizgāja,1988,1988,no,yes,medium,1988,1987,False,,conflict,strict pass,https://enciklopedija.lv/skirklis/129472,,027
 Jumprava,Vēlreiz,1989,1989,no,,high,,,,,,2nd check,"Vēlreiz is on LP Pilsēta, Melodija 1989 (Discogs https://www.discogs.com/master/1015715-Jumprava-Pils%C4%93ta; Deezer 1989-10-01; enciklopedija lists 1990). 1996 is compilation.",,107
 Jumprava,Ziemeļmeita,1988,,blank,,low,,1988,False,,conflict;no_dated_release;poll_or_premiere_only;low_confidence,strict pass,https://en.wikipedia.org/wiki/Jumprava,,492
@@ -282,18 +282,18 @@ Lauris Reiniks,Labāk vēl neaizmiedz,2010,2010,no,,high,,,,,,3rd check,"Album E
 Lauris Reiniks,Tikai divi mēs,2015,2015,no,,high,,,,,,2nd check,TVNET 3 Nov 2015 new song release; no 2003 evidence; best-of later. https://sejas.tvnet.lv/5122763/lauris-reiniks-izdod-jaunu-dziesmu-un-video-tikai-divi-mes,,079
 "Lauris Reiniks, Aisha",Pasakā,2009,,blank,,low,,,False,,conflict;no_dated_release;low_confidence,strict pass,https://www.shazam.com/song/883613193/pasak%C4%81,,435
 "Lauris Reiniks, Lily",Nepārdod Mani Eņģeļiem,2003,2003,no,,high,2003,,False,,conflict,strict pass,https://musicbrainz.org/release/bfe723f5-5822-4e11-95ec-cdee4655bf22,,385
-"Lauris Reiniks, Lily",Sirds Sadeg Neparasti,2003,2002,yes,,low,2002,2002,False,,conflict;low_confidence,strict pass,https://open.spotify.com/track/7x6HsSsmX8SP6MGswgiRf6,,194
+"Lauris Reiniks, Lily",Sirds Sadeg Neparasti,2002,2002,no,yes,low,2002,2002,False,,conflict;low_confidence,strict pass,https://open.spotify.com/track/7x6HsSsmX8SP6MGswgiRf6,,194
 "Lauris Reiniks, Rūta Reinika",Es esmu Tev dzīslās,2008,2008,no,,high,,,,,,2nd check,Apple Music lists 2008 single; artist site news Sept 2008 on duet; 5th song of 2008 in Radio Latvia 2 Muzikala banka. https://www.laurisreiniks.lv/en/2008/09/lauris-reiniks-in-a-duet-song-with-his-sis,,304
 Liene somase,Ugunskurs,2008,2008,no,,medium,2008,2006,,,conflict;cover_or_rerecording,deep check,https://lv.wikipedia.org/wiki/V%C4%81rdos_nepateiktais,,415
 Liepājas brāļi,"Pilsētā, Kurā Piedzimst Vējš",1999,,blank,,low,,1973,True,,conflict;no_dated_release;poll_or_premiere_only;low_confidence,strict pass,https://www.liepaja.lv/dokumenti/liepajas-himna/,,167
 Linda Leen,Magnētiskā vētra,2024,2024,no,,high,2024,,False,,,strict pass,https://www.deezer.com/en/artist/101027,,126
-Linga,Nāc Dejot,1992,1991,yes,,low,1991,1990,False,,conflict;low_confidence,strict pass,https://lv.wikipedia.org/wiki/Melodiju_stafete,,143
+Linga,Nāc Dejot,1991,1991,no,yes,low,1991,1990,False,,conflict;low_confidence,strict pass,https://lv.wikipedia.org/wiki/Melodiju_stafete,,143
 Līvi,Dzejnieks,1988,1988,no,,high,,,,,,2nd check,"Track 6 (side B) of Kurzemei - saules ceļš, Melodija 1988 https://lv.wikipedia.org/wiki/Kurzemei_%E2%80%94_saules_ce%C4%BC%C5%A1 ; Discogs 2134520",,527
 Līvi,Dzelzsgriezējs,1988,1988,no,yes,medium,1988,1987,False,,conflict,strict pass,https://enciklopedija.lv/skirklis/105634,,395
-Līvi,Dzimtā valoda,1986,1987,yes,,medium,1987,1986,False,,conflict;younger,strict pass,https://enciklopedija.lv/skirklis/108419-%E2%80%9CDzimt%C4%81-valoda%E2%80%9D,,554
+Līvi,Dzimtā valoda,1987,1987,no,yes,medium,1987,1986,False,,conflict,strict pass,https://enciklopedija.lv/skirklis/108419-%E2%80%9CDzimt%C4%81-valoda%E2%80%9D,,554
 Līvi,Kurzeme,1988,1988,no,,high,,,,,,3rd check,"Discogs/lv.wikipedia: Melodija LP Kurzemei - saules ceļš 1988, Kurzeme track 3; https://lv.wikipedia.org/wiki/Kurzemei_%E2%80%94_saules_ce%C4%BC%C5%A1 ; https://www.discogs.com/master/849570",,243
 Līvi,Līviskā Ziņģe,1986,1986,no,yes,medium,1986,1982,,,conflict;cover_or_rerecording,deep check,https://enciklopedija.lv/skirklis/105634-%E2%80%9CL%C4%ABvi%E2%80%9D,,108
-Līvi,Meitene Zeltene,1994,1996,yes,,low,1996,1994,,,conflict;low_confidence;conflict_second_research;younger,strict pass + second research,https://www.micrec.lv/lv/ieraksti/kmkvp,"[unknown/low] cover of a 1930s song (Poriņš/Ozols, Bellaccord); original year not exact",430
+Līvi,Meitene Zeltene,1996,1996,no,yes,low,1996,1994,,,conflict;low_confidence;conflict_second_research,strict pass + second research,https://www.micrec.lv/lv/ieraksti/kmkvp,"[unknown/low] cover of a 1930s song (Poriņš/Ozols, Bellaccord); original year not exact",430
 Līvi,"Meitene, Zeltene - Bonus track, 1994",1994,1994,no,,owner,,,,,,owner decision,Year set by project owner,,479
 Līvi,Piedod man,1997,1997,no,,high,,,,,,3rd check,"lv.wikipedia Bailes par ziņģēm: 1997 album, Piedod man the only new song; MICREC dates album 01.09.1997. https://lv.wikipedia.org/wiki/Bailes_par_zi%C5%86%C4%A3%C4%93m",,467
 Līvi,Rožu laukums,1986,1986,no,,medium,1986,,,,conflict;cover_or_rerecording,deep check,https://www.discogs.com/release/4872051-L%C4%ABvi-Iedomu-Pils%C4%93ta,,547
@@ -301,7 +301,7 @@ Līvi,Saldus saule,1986,1986,no,yes,medium,1986,1984,,,conflict;cover_or_rerecor
 Līvi,Sesku dāle,1982,,blank,,low,,,False,,no_dated_release;low_confidence,strict pass,,,483
 Līvi,Tikai tev un man (Raudāja vējš),1998,1998,no,,high,,,,,,3rd check,"MicRec: Viva released 01.09.1998, track 2, music T. Kleins; Zelta Mikrofons 1998 Radio hits; https://www.micrec.lv/lv/ieraksti/viva ; https://www.zeltamikrofons.lv/apbalvosanas-ceremonijas-2020-2/1998",,201
 Līvi,Ziņģe par bailēm,1980,1980,no,yes,high,1997,1980,,,conflict;cover_or_rerecording,deep check,https://en.wikipedia.org/wiki/L%C4%ABvi_(band),,376
-Līvi,Zīlīte,1982,1983,yes,,low,1983,1982,False,,conflict;low_confidence;younger,strict pass,https://www.metal-archives.com/bands/L%C4%ABvi/3540259318,,322
+Līvi,Zīlīte,1983,1983,no,yes,low,1983,1982,False,,conflict;low_confidence,strict pass,https://www.metal-archives.com/bands/L%C4%ABvi/3540259318,,322
 "Margarita Vilcāne, Ojārs Grīnbergs",Nepārmet man,1969,1969,no,,high,1969,1969,False,,,strict pass,"https://lv.wikipedia.org/wiki/Tev,_mana_lab%C4%81",,367
 "Margarita Vilcāne, Ojārs Grīnbergs",Zilie Lini,1969,,blank,,low,,1969,False,,conflict;no_dated_release;poll_or_premiere_only;low_confidence,strict pass,https://lv.wikipedia.org/wiki/Margarita_Vilc%C4%81ne,,407
 "Margarita Vilcāne, Ojārs Grīnbergs, Viktors Lapčenoks, Nora Bumbiere","Teic, kur zeme tā",1971,1971,no,,high,1971,1971,False,,,strict pass,"https://lv.wikipedia.org/wiki/Teic,_kur_zeme_t%C4%81_(albums)",,271
@@ -311,9 +311,9 @@ Mart Inc.,Limuzīns Jāņu Nakts Krāsā,1981,1981,no,yes,low,,,True,,conflict;n
 Marts Kristians Kalniņš,Palaid Puķīti Pa Dambi,2011,2011,no,,owner,,,,,,owner decision,Year set by project owner,,003
 "MAUZOLEJU MUUZIKA, HOTTE, Steps, Marko, xantikvariāts",JA TU ZINĀTU,2024,2024,no,,medium,2024,2024,False,,conflict,strict pass,https://www.deezer.com/en/album/666924891,,513
 Medību Lauki,Vēlos rudens vakaros,2025,2025,no,,high,,,,,,2nd check,Single released 31 Oct 2025 (Apple Music music.apple.com/ca/artist/medību-lauki/1824159171; LSM 03.11.2025 October releases roundup); album 2026.,,205
-Menuets,Alvas zaldātiņi,1978,1996,yes,,low,1996,1967,False,,conflict;low_confidence;younger,strict pass,https://dom.lndb.lv/data/obj/74749.html,,363
-Menuets,"Dziesma, ar ko tu sāksies?",1979,1996,yes,,low,1996,1979,False,,conflict;low_confidence;younger,strict pass,https://www.micrec.lv/lv/ieraksts/menuets-memoriam,,176
-Menuets,Viņi dejoja vienu vasaru,1967,1979,yes,,low,1979,1967,False,,conflict;low_confidence;younger,strict pass,https://www.jiosaavn.com/song/vi%C5%86i-dejoja-vienu-vasaru/SR0jQEV0cF0,,425
+Menuets,Alvas zaldātiņi,1996,1996,no,yes,low,1996,1967,False,,conflict;low_confidence,strict pass,https://dom.lndb.lv/data/obj/74749.html,,363
+Menuets,"Dziesma, ar ko tu sāksies?",1996,1996,no,yes,low,1996,1979,False,,conflict;low_confidence,strict pass,https://www.micrec.lv/lv/ieraksts/menuets-memoriam,,176
+Menuets,Viņi dejoja vienu vasaru,1979,1979,no,yes,low,1979,1967,False,,conflict;low_confidence,strict pass,https://www.jiosaavn.com/song/vi%C5%86i-dejoja-vienu-vasaru/SR0jQEV0cF0,,425
 Mesa,Man nav bail,2020,2020,no,,medium,2020,,False,,conflict,strict pass,https://www.discogs.com/release/18958951-Mesa-M3SA,,457
 Mesa,Vērtības,2017,2017,no,,medium,2017,,False,,conflict,strict pass,https://open.spotify.com/album/2mA5bxLWab1HDRzmkqwAJO,,022
 Metronoms,Nāk Nakts!,1987,,blank,,low,,1987,False,,no_dated_release;poll_or_premiere_only;low_confidence,strict pass,https://lr2.lsm.lv/lv/raksts/muzikju-jubilejas/muzikjim-aldim-steimanim-55.a46221/,,124
@@ -330,7 +330,7 @@ MM Orķestris,Tur lustīgi saimenieki,2024,2024,no,,medium,2024,,True,,conflict,
 Musiqq,Abrakadabra,2009,2009,no,,medium,2009,2009,False,,conflict,strict pass,https://en.wikipedia.org/wiki/Musiqq,,488
 Musiqq,Dari Kā Es,2014,2014,no,,low,2014,2012,False,,conflict;low_confidence,strict pass,https://www.shazam.com/song/936804228/dari-kc481-es,,215
 Musiqq,Dzimšanas Diena,2010,2010,no,,medium,2010,,False,,,strict pass,https://lv.wikipedia.org/wiki/%C5%A0%C4%AB_ir_tikai_m%C5%ABzika,,377
-Musiqq,Dzīve Izdodas,2010,2011,yes,,low,2011,2010,False,,conflict;low_confidence;younger,strict pass,https://www.draugiem.lv/musiqq/biography/,,100
+Musiqq,Dzīve Izdodas,2011,2011,no,yes,low,2011,2010,False,,conflict;low_confidence,strict pass,https://www.draugiem.lv/musiqq/biography/,,100
 Musiqq,Kanēlis un cukurs,2021,2021,no,,high,2021,2021,False,,conflict,strict pass,https://www.apollo.lv/7236285/pec-ka-garso-bucas-grupa-musiqq-izdevusi-jaunu-dziesmu (29.04.2021),,068
 Musiqq,Lai kvēl,2024,2024,no,,medium,2024,2024,False,,conflict,strict pass,https://x.com/MusiqqOfficial,,296
 Musiqq,No 10 - 10,2010,2010,no,,medium,2010,,False,,conflict,strict pass,https://lv.wikipedia.org/wiki/%C5%A0%C4%AB_ir_tikai_m%C5%ABzika,,238
@@ -367,7 +367,7 @@ Nora Bumbiere un Viktors Lapčenoks,Nakts dziesma,2003,,blank,,low,,1975,False,,
 Ojārs Grīnbergs,Dziesma nenosalst,1969,1969,no,,high,1969,1969,False,,,strict pass,"https://lv.wikipedia.org/wiki/Tev,_mana_lab%C4%81",,282
 Ojārs Grīnbergs,"Kam Ziedi, Mežābele",1970,1970,no,,medium,1970,1970,,,conflict;cover_or_rerecording,deep check,https://www.discogs.com/release/4782830-Raimonds-Pauls-Raimonds-Pauls ; https://musicbrainz.org/release/f94d71f1-b6b5-4950-baea-ce5420dee72b/disc/1,,214
 Ojārs Grīnbergs,"Kara kalpa dziesma (""Vella kalpi"")",1971,1971,no,yes,medium,1971,1970,False,,conflict,strict pass,"https://lv.wikipedia.org/wiki/Teic,_kur_zeme_t%C4%81_(albums)",,294
-Ojārs Grīnbergs,Mežrozīte,1968,1969,yes,,medium,1969,1967,False,,conflict;younger,strict pass,https://lv.wikipedia.org/wiki/Me%C5%BEroz%C4%ABte_(dziesma),,173
+Ojārs Grīnbergs,Mežrozīte,1969,1969,no,yes,medium,1969,1967,False,,conflict,strict pass,https://lv.wikipedia.org/wiki/Me%C5%BEroz%C4%ABte_(dziesma),,173
 Ojārs Grīnbergs,Somu pirts,1971,1971,no,,high,1971,,False,,,strict pass,"https://lv.wikipedia.org/wiki/Teic,_kur_zeme_t%C4%81_(albums)",,551
 Ojārs Grīnbergs,"Tev, mana labā",1969,1969,no,,high,1969,,False,,,strict pass,"https://lv.wikipedia.org/wiki/Tev,_mana_lab%C4%81",,234
 Ojārs Grīnbergs,Tik dzintars vien,1970,1970,no,,high,1970,,False,,,strict pass,https://www.discogs.com/release/4115352-Raimonds-Pauls-Tik-Dzintars-Vien,,338
@@ -383,7 +383,7 @@ Olga Rajecka,Saule Riet,2014,2014,no,,high,,,,,,2nd check,"Released as single Ja
 "Olga Rajecka, Violetais Lielvārdes Koris",Ziemeļvējā,2009,,blank,,low,,1991,False,,conflict;no_dated_release;poll_or_premiere_only;low_confidence,strict pass,https://lv.wikipedia.org/wiki/Olga_Rajecka,,532
 Opus Pro,Es un tu,1996,1996,no,,high,,,,,,3rd check,Discogs lists Dzimene cassette (MRCC171) and CD (MRCD052) 1996 with Es Un Tu; Last.fm 11 Apr 1996. 2014 is a compilation. https://www.discogs.com/release/10606068-Opus-Pro-Dzimene https://www.last.fm/,,463
 Opus Pro,Rozā lietus,1996,1996,no,yes,medium,1996,1992,,,conflict;cover_or_rerecording;conflict_second_research,deep check + second research,https://lv.wikipedia.org/wiki/Roz%C4%81_lietus,[unknown/low] written by H. Zariņš; no year found,339
-Otra Puse,Pēc Lietus,2006,1994,yes,,low,1994,1993,,,conflict;low_confidence,deep check,https://www.discogs.com/release/15194248-Otra-Puse-P%C4%93c-Lietus ; http://otrapuse.net/page/3/,,212
+Otra Puse,Pēc Lietus,1994,1994,no,yes,low,1994,1993,,,conflict;low_confidence,deep check,https://www.discogs.com/release/15194248-Otra-Puse-P%C4%93c-Lietus ; http://otrapuse.net/page/3/,,212
 Otra Puse,Vēstules,1995,1995,no,yes,medium,1995,1994,,,conflict;cover_or_rerecording,deep check,https://dom.lndb.lv/data/obj/836614.html,,405
 "Otra Puse, Aija Andrejeva",Ave Pali (feat. Aija Andrejeva),2011,2011,no,,low,,2011,False,,conflict;poll_or_premiere_only;low_confidence,strict pass,http://www.lanet.lv/news/airplay/2011/110529lv.html,,037
 "Otra Puse, Antra Stafecka",Uzzīmē Mani (feat. Antra Stafecka),2013,2013,no,,medium,2013,,False,,,strict pass,https://parmuziku.lv/muzikas-zinas/latvija/grupa-otra-puse-un-antra-stafecka-izdod-kopdziesmu-1076,,514
@@ -439,13 +439,13 @@ Putnu Balle,Sapņu Pārdevējs,2004,2004,no,,medium,2004,2003,False,,conflict,st
 Putnu Balle,Sauc Palīgā,2005,2005,no,yes,medium,2005,,False,,conflict,strict pass,https://www.deezer.com/en/album/553700562,,378
 Putnu Balle,Spārni un vējš,2005,2005,no,,medium,2005,,False,,conflict,strict pass,https://www.deezer.com/en/album/553700562,,558
 Pārsla Gebharde,Tai Pilsētā,1978,1978,no,,low,1978,,False,,conflict;low_confidence,strict pass,https://www.discogs.com/release/1999124-Raimonds-Pauls-Naktsputni,,351
-Pērkons,Balāde Par Gulbi,1982,1994,yes,,medium,1994,1983,,,conflict;younger,deep check,https://www.discogs.com/release/13019623-P%C4%93rkons-M%C4%81kslas-Darbi ; https://lv.wikipedia.org/wiki/M%C4%81kslas_darbi_(albums),,163
+Pērkons,Balāde Par Gulbi,1994,1994,no,yes,medium,1994,1983,,,conflict,deep check,https://www.discogs.com/release/13019623-P%C4%93rkons-M%C4%81kslas-Darbi ; https://lv.wikipedia.org/wiki/M%C4%81kslas_darbi_(albums),,163
 Pērkons,Dziesma Par Sapumpurotu Zaru,1982,,blank,,low,,1983,False,,conflict;no_dated_release;poll_or_premiere_only;low_confidence,strict pass,https://lv.wikipedia.org/wiki/P%C4%93rkons_(rokgrupa),,544
-Pērkons,Gandrīz Tautasdziesma,1987,1989,yes,,medium,1989,1987,False,,conflict;younger,strict pass,https://lv.wikipedia.org/wiki/Labu_vakar!_(albums),,198
+Pērkons,Gandrīz Tautasdziesma,1989,1989,no,yes,medium,1989,1987,False,,conflict,strict pass,https://lv.wikipedia.org/wiki/Labu_vakar!_(albums),,198
 Pērkons,Mana Dienišķā Dziesma,1989,1989,no,yes,medium,1989,1988,,,conflict,deep check,https://lv.wikipedia.org/wiki/Klus%C4%81_daba_ar_perspekt%C4%ABvu,,464
-Pērkons,Mākslas Darbi Rodas Mokās,1982,1994,yes,,medium,1994,1983,False,,younger,strict pass,https://www.discogs.com/release/13019623-P%C4%93rkons-M%C4%81kslas-Darbi,,270
+Pērkons,Mākslas Darbi Rodas Mokās,1994,1994,no,yes,medium,1994,1983,False,,,strict pass,https://www.discogs.com/release/13019623-P%C4%93rkons-M%C4%81kslas-Darbi,,270
 Pērkons,Mēs Pārtiekam Viens No Otra,1990,1990,no,yes,medium,1990,1989,False,,conflict,strict pass,https://www.unearthingthemusic.eu / database.unearthingthemusic.eu/P%C4%93rkons,,293
-Pērkons,Pie Baltas Lapas,1982,1994,yes,,medium,1994,1981,,,conflict;cover_or_rerecording;younger,deep check,https://lv.wikipedia.org/wiki/Pie_baltas_lapas,,482
+Pērkons,Pie Baltas Lapas,1994,1994,no,yes,medium,1994,1981,,,conflict;cover_or_rerecording,deep check,https://lv.wikipedia.org/wiki/Pie_baltas_lapas,,482
 Pērkons,Zaļā Dziesma,1983,,blank,,low,,1988,False,,conflict;no_dated_release;poll_or_premiere_only;low_confidence,strict pass,https://lv.wikipedia.org/wiki/P%C4%93rkons_(rokgrupa),,403
 R.A.P.,Nekas Vairs Nav Tā (Bonus Track),2001,2001,no,,low,2001,2001,,,conflict;cover_or_rerecording;low_confidence,deep check,https://nra.lv/izklaide/muzika/521069-r-a-p-atzime-25-gadu-jubileju-ar-jaunu-nekas-vairs-nav-ta-versiju.htm,,015
 "Ralfs Eilands, Lauris Reiniks",Labos Darbus Krāj,2025,2025,no,,high,2025,2025,False,,,strict pass,https://laurisreiniks.lv/album/labos-darbus-kraj/,,070
@@ -519,9 +519,9 @@ Tumsa,Tā Tas Mās',2002,2002,no,,high,2002,,False,,,strict pass,https://lv.wiki
 Tumsa,Zvaigžņu Kabarē,2004,2004,no,,high,2004,,False,,,strict pass,https://lv.wikipedia.org/wiki/1_000_000_itnek%C4%81,,372
 UFO,Ko tu dirs...,2020,2020,no,,low,2020,,False,,conflict;low_confidence,strict pass,"https://www.shazam.com/song/1812432559/ko-tu-dirs (1 Jan 2020, likely placeholder)",,342
 UFO,"Pastum, Pastum, Pietupies...",2003,2003,no,,high,2003,,False,,conflict,strict pass,https://www.discogs.com/release/28308688-Ufogrupa-Pastum-Pastum-Pietupies--Pietupies-Un-Aps%C4%93dies,,055
-"Uldis Marhilevics, Mirdza Zīvere",Lūgums,1984,1997,yes,,low,1997,1984,False,,conflict;low_confidence;younger,strict pass,https://www.shazam.com/song/1154203565/l%C5%ABgums-feat-mirdza-z%C4%ABvere,,075
+"Uldis Marhilevics, Mirdza Zīvere",Lūgums,1997,1997,no,yes,low,1997,1984,False,,conflict;low_confidence,strict pass,https://www.shazam.com/song/1154203565/l%C5%ABgums-feat-mirdza-z%C4%ABvere,,075
 "Uldis Stabulnieks, Rita Trence",Tik un tā,1985,1985,no,,high,1981,1981,,,conflict;low_confidence,deep check + second research,https://lv.wikipedia.org/wiki/Mikrofona_aptauja_1981,"[change/high] Melodija LP Tik un tā С60-22823 006, 1985; 2nd place Mikrofons 1981; 2002 = MRCD 189 compilation; a Mikrofons-81 LP (c.1982) may exist; lv.wikipedia cites a 1982 album (conflict)",522
-Vaidava,Tu Būsi Vēl,1981,2008,yes,,low,2008,1984,,,conflict;cover_or_rerecording;low_confidence;younger,deep check,https://www.apollo.lv/5379094/izdots-grupas-vaidava-labako-dziesmu-albums,,399
+Vaidava,Tu Būsi Vēl,1984,1984,no,yes,low,2008,1984,,,conflict;cover_or_rerecording;low_confidence,deep check,https://www.apollo.lv/5379094/izdots-grupas-vaidava-labako-dziesmu-albums,[round 5] Round 5 audit: poll 1984 (radio recordings 1983); owner-approved,399
 Valdis Atāls,Visskaistākais gadalaiks,1996,1996,no,,owner,,,,,,owner decision,Year set by project owner,,357
 "Very Cool People, Edavārdi, Kristīne Prauliņa, ansis",Pa Apli,2018,2018,no,yes,high,2018,2019,False,,,strict pass,https://music.apple.com/us/album/pa-apli-feat-krist-c4-abne-prauli-c5-86a-ansis-edav/1444646431,,047
 "Viegli, Kārlis Kazāks",Kaijiņa,2015,2015,no,,medium,2015,,False,,,strict pass,https://music.apple.com/gb/album/loks-paliek-va%C4%BC%C4%81/1052864727,,570
@@ -532,7 +532,7 @@ Viktors Lapčenoks,Pelnrušķīte,1972,,blank,,low,,,False,,no_dated_release;low
 Viktors Lapčenoks,Pēc simts gadiem Piebalgā,1985,1985,no,yes,medium,1985,1983,False,,conflict,strict pass,https://www.discogs.com/release/4782523-Raimonds-Pauls-Estrādes-Dziesmas,,445
 Viktors Lapčenoks,Zilā,1971,1971,no,,high,,,,,,3rd check,"On album Teic, kur zeme tā, released 1971 (lv.wikipedia); reportedly 2nd in Mikrofons 71 poll; micrec. https://lv.wikipedia.org/wiki/Teic,_kur_zeme_t%C4%81_(albums) https://www.micrec.lv/lv/ieraksts/t",,509
 Viktors Zemgals,Magnolijas zieds,2021,,blank,,low,,1996,True,,conflict;no_dated_release;poll_or_premiere_only;low_confidence,strict pass,https://lr2.lsm.lv/lv/raksts/muzikju-jubilejas/dziedatajam-viktoram-zemgalam-65.a91426/,,224
-Vilki,Bunkurs 13,2021,1997,yes,,medium,1997,,False,,conflict,strict pass,https://www.discogs.com/release/12309633-Vilki-V%C4%ABru-Kopa-Stobri-Jau-Karsti,,254
+Vilki,Bunkurs 13,1997,1997,no,yes,medium,1997,,False,,conflict,strict pass,https://www.discogs.com/release/12309633-Vilki-V%C4%ABru-Kopa-Stobri-Jau-Karsti,,254
 Vytautas Kernagis,Tu esi man... Pasilik,2020,2020,no,,medium,2020,,False,,conflict,strict pass,https://www.discogs.com/release/16385694-Vytautas-Kernagis-Teisingos-Dainos-70,,300
 "Wiesulis, galaktik",Spēlēt kā mēs,2025,2025,no,,high,2025,2025,False,,,strict pass,https://music.apple.com/lv/artist/wiesulis/1519906107,,193
 "Wiesulis, galaktik, sangvn, rolands če",Rīgas atslēga,2025,2025,no,,high,2025,,False,,,strict pass,https://hiphops.lv/wiesulis-izdod-minialbumu-500-mezgli/,,563
