@@ -245,14 +245,14 @@ Jumprava,Ziemeļmeita,1988,,blank,,low,,1988,False,,conflict;no_dated_release;po
 Jumprava,Ēna,1998,1998,no,,low,1998,,False,,conflict;low_confidence,strict pass,https://dom.lndb.lv/data/obj/78490.html,,263
 Jumprava,Šeit lejā,1988,1988,no,yes,medium,1989,1989,,,conflict,deep check,https://www.discogs.com/release/873124-Jumprava-Pils%C4%93ta,,097
 Justs,Heartbeat,2016,2016,no,,high,2016,2016,False,,conflict,strict pass,https://music.apple.com/us/album/heartbeat-single/1081708554,,009
-"Jānis Grodums, Līvi",Bailes Par Ziņģi,1982,,blank,,low,,1981,False,,no_dated_release;poll_or_premiere_only;low_confidence,strict pass,https://enciklopedija.lv/skirklis/105634,,366
+"Jānis Grodums, Līvi",Bailes Par Ziņģi,1981,1981,yes,yes,low,,1981,False,,no_dated_release;poll_or_premiere_only;low_confidence,strict pass,https://enciklopedija.lv/skirklis/105634,,366
 Jānis Paukštello,Cielaviņa,1982,,blank,,low,,1982,False,,no_dated_release;poll_or_premiere_only;low_confidence,strict pass,https://lv.wikipedia.org/wiki/Mikrofona_aptauja_1982,,264
 Jātnieki,Balle Baložos,2011,2011,no,yes,medium,2012,2011,,,conflict;cover_or_rerecording,deep check,https://www.amazon.com/Dzimusi-muzikai-Various-artists/dp/B0097UNX7G,,439
 Kantoris 04,Balts rīts,1996,1996,no,,high,,,,,,2nd check,"Discogs 11973714 and RYM: Balts rīts cassette, Studija Mix MIX 010, 1996; 2001 is Labākie Šlāgeri compilation",,064
 Kaspars Dimiters,Glāze ūdens,1995,1995,no,,high,,,,,,3rd check,"Album Krusta skola... released 1 May 1995 (Bandcamp, track 12); Mail.ru lists MC/CD 1995. https://nebruks.bandcamp.com/track/gl-ze-dens",,265
 Kaspars Dimiters,Princesīte,1981,1981,no,yes,medium,1982,1981,,,conflict,deep check,https://www.discogs.com/release/5697564-Various-Mikrofons-81-1,,487
 Kaspars Dimiters,"Tu mana Afrika, mana Antarktida",1988,1988,no,yes,medium,2004,,False,,conflict,strict pass,https://www.deezer.com/en/artist/113139,,041
-Kaspars Markševics,Zibsnī zvaigznes aiz Daugavas,2017,2017,no,,high,2017,1985,,,conflict;cover_or_rerecording,deep check,https://www.shazam.com/song/1288634237/zibsni-zvaigznes-aiz-daugavas,,202
+Kaspars Markševics,Zibsnī zvaigznes aiz Daugavas,1985,1985,yes,yes,high,2017,1985,,,conflict;cover_or_rerecording,deep check,https://www.shazam.com/song/1288634237/zibsni-zvaigznes-aiz-daugavas,,202
 Kautkaili,Palaid vaļā,2024,2024,no,,high,2024,2024,False,,,strict pass,https://open.spotify.com/album/2e7RQkWbHI4hqEHtmC2JrU,,360
 Kautkaili,Te un tagad,2025,2025,no,,high,2025,2025,False,,,strict pass,https://music.apple.com/lv/album/te-un-tagad-single/1853034824,,244
 Kautkaili,Vēl vienu reiz,2025,2025,no,,high,2025,2025,False,,,strict pass,https://www.rits.lv/noklausies-grupa-kautkaili-laiz-klaja-dziesmu-vel-vienu-reiz/,,546
@@ -308,7 +308,7 @@ Līvi,Zīlīte,1983,1983,no,yes,low,1983,1982,False,,conflict;low_confidence,str
 "Margarita Vilcāne, Raimonds Pauls",Baltā saule,1970,1970,no,,high,1970,1970,False,,,strict pass,https://www.discogs.com/release/4115352-Raimonds-Pauls-Tik-Dzintars-Vien,,505
 Markus Riva,Kamēr Vien Mēs Esam,2019,2019,no,,high,2019,,False,,conflict,strict pass,https://music.apple.com/us/album/kam%C4%93r-vien-m%C4%93s-esam-single/1460065196,,422
 Mart Inc.,Limuzīns Jāņu Nakts Krāsā,1981,1981,no,yes,low,,,True,,conflict;no_dated_release;low_confidence,strict pass,https://www.apollo.lv/7550323/ieskandini-savu-saulgriezu-vakaru-dziesmu-izlase,,406
-Marts Kristians Kalniņš,Palaid Puķīti Pa Dambi,2011,2011,no,,owner,,,,,,owner decision,Year set by project owner,,003
+Marts Kristians Kalniņš,Palaid Puķīti Pa Dambi,2006,2006,yes,yes,owner,,,,,,owner decision,Year set by project owner,,003
 "MAUZOLEJU MUUZIKA, HOTTE, Steps, Marko, xantikvariāts",JA TU ZINĀTU,2024,2024,no,,medium,2024,2024,False,,conflict,strict pass,https://www.deezer.com/en/album/666924891,,513
 Medību Lauki,Vēlos rudens vakaros,2025,2025,no,,high,,,,,,2nd check,Single released 31 Oct 2025 (Apple Music music.apple.com/ca/artist/medību-lauki/1824159171; LSM 03.11.2025 October releases roundup); album 2026.,,205
 Menuets,Alvas zaldātiņi,1996,1996,no,yes,low,1996,1967,False,,conflict;low_confidence,strict pass,https://dom.lndb.lv/data/obj/74749.html,,363
