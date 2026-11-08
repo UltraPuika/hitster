@@ -947,7 +947,7 @@ function loadSdk(){
       });
       p.addListener("account_error", fail("Full songs need Spotify Premium"));
       p.addListener("player_state_changed", s => { if (!s || player.mode !== "full") return; player.paused = s.paused; player.pos = s.position; player.dur = s.duration; updatePlayerUI(); });
-      p.connect().then(async ok => { if (!ok) fail((await spDiagnose()) || "Could not connect to Spotify. Check that the app has Web Playback SDK ticked under APIs used")(); });
+      p.connect().then(async ok => { if (!ok) fail((await spDiagnose()) || "Spotify's player couldn't start in this browser even though your account and app look fine. The Web Playback SDK doesn't work on phones/tablets (iOS, most Android browsers) and needs DRM/Widevine on desktop (use Chrome or Edge, not a Widevine-less Chromium/Firefox build; turn off ad blockers for this page and sdk.scdn.co)")(); });
     };
     // The SDK only calls onSpotifyWebPlaybackSDKReady once, so a retry must init directly.
     if (window.Spotify && window.Spotify.Player) return init();
