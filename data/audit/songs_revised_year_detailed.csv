@@ -192,7 +192,7 @@ IGO,Tikai Tā,1988,1988,no,yes,medium,1988,1987,True,1988,conflict,strict pass,h
 IGO,Vienīgai,1988,1988,no,,owner,,,,,,owner decision,Year set by project owner,,129
 Imants Kalniņš,Alvas zaldātiņi,1967,,blank,,low,,1967,False,,no_dated_release;poll_or_premiere_only;low_confidence,strict pass,https://lv.wikipedia.org/wiki/Alvas_zald%C4%81ti%C5%86i_(dziesma),,166
 "Imants Kalniņš, Ainars Mielavs",Tā,1997,1997,no,,medium,1997,,False,,,strict pass + second research,https://enciklopedija.lv/skirklis/116568-Imants-Kalni%C5%86%C5%A1,[unknown/low] 1997 is a compilation date; original may be earlier,550
-"Imants Kalniņš, Paula Ķiete",Princesīte,2004,,blank,,low,2004,,,,conflict;no_dated_release;low_confidence,strict pass,https://dom.lndb.lv/data/obj/98715.html,"[round 10] cover of a Kalniņš/Viks theatre song (1968 premiere); earliest dated release found 1995 (Austra Pumpure, low confidence); owner decision pending: 1995 or 1968",204
+"Imants Kalniņš, Paula Ķiete",Princesīte,1995,1995,yes,yes,low,2004,,,,conflict;no_dated_release;low_confidence,Owner decision,https://dom.lndb.lv/data/obj/98715.html,"[round 10] cover of a Kalniņš/Viks theatre song (1968 premiere); earliest dated release found 1995 (Austra Pumpure, low confidence); owner decision pending: 1995 or 1968",204
 "Imants Kalniņš, Renārs Kaupers",Elpo,1997,1997,no,,low,1997,,,,conflict;low_confidence,strict pass,https://www.discogs.com/master/1588815-Imants-Kalni%C5%86%C5%A1-Ainars-Mielavs-Par-Liet%C4%81m-Kuras-T%C4%81-Ar-Nekad-Nep%C4%81riet,,002
 "Imants Kalniņš, Renārs Kaupers",Es šodien jūku prātā,1997,1997,no,,low,1997,,,,conflict;low_confidence,strict pass,https://www.discogs.com/master/1588815-Imants-Kalni%C5%86%C5%A1-Ainars-Mielavs-Par-Liet%C4%81m-Kuras-T%C4%81-Ar-Nekad-Nep%C4%81riet,,323
 "Imants Kalniņš, Zigfrīds Muktupāvels","Dziesma, ar ko tu sāksies?",2005,2005,no,,high,2005,1979,,,conflict;cover_or_rerecording,deep check,https://www.discogs.com/release/4109996-Imants-Kalni%C5%86%C5%A1-Otr%C4%81s-Dziesmas,,497
@@ -439,13 +439,13 @@ Putnu Balle,Sapņu Pārdevējs,2004,2004,no,,medium,2004,2003,False,,conflict,st
 Putnu Balle,Sauc Palīgā,2005,2005,no,yes,medium,2005,,False,,conflict,strict pass,https://www.deezer.com/en/album/553700562,,378
 Putnu Balle,Spārni un vējš,2005,2005,no,,medium,2005,,False,,conflict,strict pass,https://www.deezer.com/en/album/553700562,,558
 Pārsla Gebharde,Tai Pilsētā,1978,1978,no,,low,1978,,False,,conflict;low_confidence,strict pass,https://www.discogs.com/release/1999124-Raimonds-Pauls-Naktsputni,,351
-Pērkons,Balāde Par Gulbi,1994,1994,no,yes,medium,1994,1983,,,conflict,deep check,https://www.discogs.com/release/13019623-P%C4%93rkons-M%C4%81kslas-Darbi ; https://lv.wikipedia.org/wiki/M%C4%81kslas_darbi_(albums),,163
+Pērkons,Balāde Par Gulbi,1984,1984,yes,yes,medium,1994,1983,,,conflict,Owner decision,https://www.discogs.com/release/13019623-P%C4%93rkons-M%C4%81kslas-Darbi ; https://lv.wikipedia.org/wiki/M%C4%81kslas_darbi_(albums),,163
 Pērkons,Dziesma Par Sapumpurotu Zaru,1982,,blank,,low,,1983,False,,conflict;no_dated_release;poll_or_premiere_only;low_confidence,strict pass,https://lv.wikipedia.org/wiki/P%C4%93rkons_(rokgrupa),,544
 Pērkons,Gandrīz Tautasdziesma,1989,1989,no,yes,medium,1989,1987,False,,conflict,strict pass,https://lv.wikipedia.org/wiki/Labu_vakar!_(albums),,198
 Pērkons,Mana Dienišķā Dziesma,1989,1989,no,yes,medium,1989,1988,,,conflict,deep check,https://lv.wikipedia.org/wiki/Klus%C4%81_daba_ar_perspekt%C4%ABvu,,464
-Pērkons,Mākslas Darbi Rodas Mokās,1994,1994,no,yes,medium,1994,1983,False,,,strict pass,https://www.discogs.com/release/13019623-P%C4%93rkons-M%C4%81kslas-Darbi,,270
+Pērkons,Mākslas Darbi Rodas Mokās,1984,1984,yes,yes,medium,1994,1983,False,,,Owner decision,https://www.discogs.com/release/13019623-P%C4%93rkons-M%C4%81kslas-Darbi,,270
 Pērkons,Mēs Pārtiekam Viens No Otra,1990,1990,no,yes,medium,1990,1989,False,,conflict,strict pass,https://www.unearthingthemusic.eu / database.unearthingthemusic.eu/P%C4%93rkons,,293
-Pērkons,Pie Baltas Lapas,1994,1994,no,yes,medium,1994,1981,,,conflict;cover_or_rerecording,deep check,https://lv.wikipedia.org/wiki/Pie_baltas_lapas,,482
+Pērkons,Pie Baltas Lapas,1984,1984,yes,yes,medium,1994,1981,,,conflict;cover_or_rerecording,Owner decision,https://lv.wikipedia.org/wiki/Pie_baltas_lapas,,482
 Pērkons,Zaļā Dziesma,1983,,blank,,low,,1988,False,,conflict;no_dated_release;poll_or_premiere_only;low_confidence,strict pass,https://lv.wikipedia.org/wiki/P%C4%93rkons_(rokgrupa),,403
 R.A.P.,Nekas Vairs Nav Tā (Bonus Track),2001,2001,no,,low,2001,2001,,,conflict;cover_or_rerecording;low_confidence,deep check,https://nra.lv/izklaide/muzika/521069-r-a-p-atzime-25-gadu-jubileju-ar-jaunu-nekas-vairs-nav-ta-versiju.htm,,015
 "Ralfs Eilands, Lauris Reiniks",Labos Darbus Krāj,2025,2025,no,,high,2025,2025,False,,,strict pass,https://laurisreiniks.lv/album/labos-darbus-kraj/,,070
